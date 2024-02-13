@@ -22,5 +22,16 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "noImplicitThis": false
+    }
+  }
 }
