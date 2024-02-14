@@ -1,0 +1,37 @@
+{
+  "name": "typescript-cli-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A simple and zero-opinion typescript starter template for building cross-platform command line applications.",
+  "author": "Yuchen Wang <contact@wangyuchen.cn>",
+  "keywords": [
+    "typescript",
+    "cli",
+    "starter"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "bin": {
+    "orderPizza": "./dist/cli.js"
+  },
+  "files": [
+    "dist/**/*",
+    "!dist/**/*.test.js"
+  ],
+  "scripts": {
+    "dev": "ts-node ./src/cli.ts",
+    "clean": "rimraf ./dist/ ./exec/",
+    "build": "pnpm run clean && tsc",
+    "test": "pnpm run build && ava --verbose"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ava": "^6.1.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
