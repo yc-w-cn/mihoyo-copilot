@@ -1,8 +1,8 @@
 {
-  "name": "typescript-cli-starter",
+  "name": "@mihoyo-copilot/biligame",
   "private": true,
   "version": "1.0.0",
-  "description": "A simple and zero-opinion typescript starter template for building cross-platform command line applications.",
+  "description": "Simple cli application to download meta info from biligame.",
   "author": "Yuchen Wang <contact@wangyuchen.cn>",
   "keywords": [
     "typescript",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "bin": {
-    "orderPizza": "./dist/cli.js"
+    "biligame": "./dist/cli.js"
   },
   "files": [
     "dist/**/*",
@@ -32,6 +32,8 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "1.0.0-rc.12",
     "commander": "^12.0.0"
   }
 }

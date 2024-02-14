@@ -1,22 +1,33 @@
 #!/usr/bin/env node
-import { Command } from 'commander';
+import { Command, Option } from "commander";
 
-import { orderPizza } from './index'
+import { biligame } from "./index";
 
 const program = new Command();
 
 program
-  .name("orderPizza")
-  .version('1.0.0')
-  .option('-p, --peppers', 'Add peppers')
-  .option('-P, --pineapple', 'Add pineapple')
-  .option('-b, --bbq-sauce', 'Add bbq sauce')
-  .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
-  .parse(process.argv)
+  .name("biligame")
+  .version("1.0.0", "-v, --vers", "output the current version")
+  .description("download meta data from biligame")
+  .addOption(
+    new Option("-g, --game <game>", "specify game name (sr, ys, bh3)")
+      .choices(["sr", "ys", "bh3"])
+      .default("sr")
+  )
+  .option("-o, --outputDir <directory>", "specify output dir", process.cwd())
+  .addOption(
+    new Option("-t, --target", "specify output target (characters)")
+      .choices(["characters"])
+      .default("characters")
+  )
+  .addOption(
+    new Option("-c, --cache", "whether to check cache file data").default(true)
+  )
+  .parse(process.argv);
 
-orderPizza({
-  peppers: program.opts().peppers,
-  pineapple: program.opts().pineapple,
-  bbqSauce: program.opts().bbqSauce,
-  cheeseType: program.opts().cheese
-}).then(result => console.log(result.message))
+biligame({
+  game: program.opts().game,
+  outputDir: program.opts().outputDir,
+  target: program.opts().target,
+  cache: program.opts().cache,
+});

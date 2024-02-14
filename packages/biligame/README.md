@@ -22,21 +22,21 @@ Your application will be installable from `npm`.
 
 ### **dev**
 
-`npm run dev`
+`pnpm run dev`
 
 Runs the CLI application.
 
-You can pass arguments to your application by running `npm run dev -- --your-argument`. The extra `--` is so that your arguments are passed to your CLI application, and not `npm`.
+You can pass arguments to your application by running `pnpm run dev -- --your-argument`. The extra `--` is so that your arguments are passed to your CLI application, and not `pnpm`.
 
 ### **clean**
 
-`npm run clean`
+`pnpm run clean`
 
 Removes any built code and any built executables.
 
 ### **build**
 
-`npm run build`
+`pnpm run build`
 
 Cleans, then builds the TypeScript code.
 
@@ -44,6 +44,6 @@ Your built code will be in the `./dist/` directory.
 
 ### **test**
 
-`npm run test`
+`pnpm run test`
 
 Cleans, then builds, and tests the built code.
