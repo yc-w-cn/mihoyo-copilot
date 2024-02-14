@@ -63,7 +63,3 @@ typings/
 
 # next.js build output
 .next
-
-# generated files
-sr-characters.json
-sr-characters.html

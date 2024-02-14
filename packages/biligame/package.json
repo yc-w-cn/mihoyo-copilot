@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "dev": "ts-node ./src/cli.ts",
+    "ys:dev": "ts-node ./src/cli.ts --game ys",
     "clean": "rimraf ./dist/ ./exec/",
     "build": "pnpm run clean && tsc",
     "test": "pnpm run build && ava --verbose"

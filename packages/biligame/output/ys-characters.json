@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "characters": [
+      {
+        "name": "闲云",
+        "image": "https://patchwiki.biligame.com/images/ys/3/33/gn836y6qx7kl0rl98wozgx13thi62nq.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "法器"
+      },
+      {
+        "name": "娜维娅",
+        "image": "https://patchwiki.biligame.com/images/ys/0/04/3bbaccl7ziumc1f9vk1hoo1vpttkd2m.png",
+        "rarity": "5星",
+        "element": "岩",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "芙宁娜",
+        "image": "https://patchwiki.biligame.com/images/ys/c/c3/pcfz7nh8676dqxxubrshq17jdu17xn9.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "莱欧斯利",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d7/jvb2oapa38w7k6t4zd9y5x21hex5ku2.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "法器"
+      },
+      {
+        "name": "那维莱特",
+        "image": "https://patchwiki.biligame.com/images/ys/1/16/aism1oli44ck26p72n0gv2elnqq1av7.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "法器"
+      },
+      {
+        "name": "林尼",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d6/tbalaahap33je75krxzg29fmuidcxit.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "弓"
+      },
+      {
+        "name": "旅行者(水)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "白术",
+        "image": "https://patchwiki.biligame.com/images/ys/2/22/rkydprgsuw6uaxbm4wotnaj8dw2v30a.png",
+        "rarity": "5星",
+        "element": "草",
+        "weapon": "法器"
+      },
+      {
+        "name": "迪希雅",
+        "image": "https://patchwiki.biligame.com/images/ys/c/ca/n64mnzi2yy03qpzld3in619wijfqyj6.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "艾尔海森",
+        "image": "https://patchwiki.biligame.com/images/ys/1/14/nugjaod5qmffz3tbtt8is50d8hf1u5r.png",
+        "rarity": "5星",
+        "element": "草",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "流浪者",
+        "image": "https://patchwiki.biligame.com/images/ys/c/c8/ottjnyh4hg2kid1zqfiqlqext5w5v84.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "法器"
+      },
+      {
+        "name": "纳西妲",
+        "image": "https://patchwiki.biligame.com/images/ys/b/ba/g5x8lguvxfq0hkv211yfecjdvm0xhe7.png",
+        "rarity": "5星",
+        "element": "草",
+        "weapon": "法器"
+      },
+      {
+        "name": "妮露",
+        "image": "https://patchwiki.biligame.com/images/ys/9/92/94sj2gmd3pywnqv7ep9fdn5xrkfxaum.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "赛诺",
+        "image": "https://patchwiki.biligame.com/images/ys/c/ca/4yr49hl7qyuzcku5hnjrls2zrswcen5.png",
+        "rarity": "5星",
+        "element": "雷",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "提纳里",
+        "image": "https://patchwiki.biligame.com/images/ys/3/3b/9bq657i9ork1vn2uzv3fpd7p5q8dlqc.png",
+        "rarity": "5星",
+        "element": "草",
+        "weapon": "弓"
+      },
+      {
+        "name": "旅行者(草)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "草",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "夜兰",
+        "image": "https://patchwiki.biligame.com/images/ys/6/68/e49y27vv8lhk0a9h199pgc0ramj3dk4.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "弓"
+      },
+      {
+        "name": "神里绫人",
+        "image": "https://patchwiki.biligame.com/images/ys/f/f7/sdgu6bh00rod7lypt9l9c9xlxojtjhl.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "八重神子",
+        "image": "https://patchwiki.biligame.com/images/ys/e/e0/0plzsmjpgzzpldn00zqijgfybgx2pac.png",
+        "rarity": "5星",
+        "element": "雷",
+        "weapon": "法器"
+      },
+      {
+        "name": "申鹤",
+        "image": "https://patchwiki.biligame.com/images/ys/7/73/793kuoybdf409lnzwevsmd8ipnel1d2.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "荒泷一斗",
+        "image": "https://patchwiki.biligame.com/images/ys/0/0c/5sdwiryq6bjb3tjxxtg1e8njdmggirp.png",
+        "rarity": "5星",
+        "element": "岩",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "珊瑚宫心海",
+        "image": "https://patchwiki.biligame.com/images/ys/4/49/kyfltllg1qaoki7pwpefy7xh8022duy.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "法器"
+      },
+      {
+        "name": "埃洛伊",
+        "image": "https://patchwiki.biligame.com/images/ys/0/06/72b7b1cm9etjeqnpg5rmfafhhj3s1nm.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "弓"
+      },
+      {
+        "name": "雷电将军",
+        "image": "https://patchwiki.biligame.com/images/ys/a/a7/e9o4gu6ztf7zytnvvkeoerbevkjfwjr.png",
+        "rarity": "5星",
+        "element": "雷",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "宵宫",
+        "image": "https://patchwiki.biligame.com/images/ys/3/34/pz347ut911ktapyemd3ewiyx1dwv3te.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "弓"
+      },
+      {
+        "name": "旅行者(雷)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "雷",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "神里绫华",
+        "image": "https://patchwiki.biligame.com/images/ys/3/38/8h931m3f8nkkvjfq3f03c8a9h0f6x69.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "枫原万叶",
+        "image": "https://patchwiki.biligame.com/images/ys/3/3a/e1n6v73p785ne6kew41q9snh45zrup2.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "优菈",
+        "image": "https://patchwiki.biligame.com/images/ys/8/86/jf6qfoaq6q48jx6lvqb88dgl4xta141.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "胡桃",
+        "image": "https://patchwiki.biligame.com/images/ys/2/2d/6x5q4v3ovlgtd5pk7xlqxjdqv1gvf0a.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "魈",
+        "image": "https://patchwiki.biligame.com/images/ys/3/33/5h47uueobwqzur6vo90ag9fewfgqxdq.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "甘雨",
+        "image": "https://patchwiki.biligame.com/images/ys/1/18/qr9mmt4ryhcuovbx82pazu3xv7wr19p.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "弓"
+      },
+      {
+        "name": "阿贝多",
+        "image": "https://patchwiki.biligame.com/images/ys/e/e9/k1zod68cqa6e89r0poxm9ihfmqfmgvw.png",
+        "rarity": "5星",
+        "element": "岩",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "钟离",
+        "image": "https://patchwiki.biligame.com/images/ys/a/a4/eewy674lo37jwuq9qozyszhz8vo0d8j.png",
+        "rarity": "5星",
+        "element": "岩",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "达达利亚",
+        "image": "https://patchwiki.biligame.com/images/ys/b/b1/4v48u6t4v9mfnwmabch9ojskqa1x61a.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "弓"
+      },
+      {
+        "name": "可莉",
+        "image": "https://patchwiki.biligame.com/images/ys/2/26/59ohlo0p92xb8d7qut9ul8wi0ij6ehw.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "法器"
+      },
+      {
+        "name": "温迪",
+        "image": "https://patchwiki.biligame.com/images/ys/4/42/l9a990crawlwa9ur42ld1cgjvqzj3m9.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "弓"
+      },
+      {
+        "name": "旅行者(风)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "琴",
+        "image": "https://patchwiki.biligame.com/images/ys/8/8d/lm9cpnooekvfzfy7fbogykwjro3v5lw.png",
+        "rarity": "5星",
+        "element": "风",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "刻晴",
+        "image": "https://patchwiki.biligame.com/images/ys/6/6a/goj6bb8yj190midok60n2fbkk872090.png",
+        "rarity": "5星",
+        "element": "雷",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "迪卢克",
+        "image": "https://patchwiki.biligame.com/images/ys/9/90/lwq85ylshqji1oozf7odkv3xlquvttt.png",
+        "rarity": "5星",
+        "element": "火",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "莫娜",
+        "image": "https://patchwiki.biligame.com/images/ys/f/f1/refnobe859mskudq9i634djaniepwvt.png",
+        "rarity": "5星",
+        "element": "水",
+        "weapon": "法器"
+      },
+      {
+        "name": "旅行者(无)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "无",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "派蒙",
+        "image": "https://patchwiki.biligame.com/images/ys/3/39/h6kpw0z6df4sddabrsz52lt9n91epzf.png",
+        "rarity": "5星",
+        "element": "无",
+        "weapon": "无"
+      },
+      {
+        "name": "旅行者(岩)",
+        "image": "https://patchwiki.biligame.com/images/ys/5/58/qp92ut2iic6699bu9h72reklefh1yb1.png",
+        "rarity": "5星",
+        "element": "岩",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "七七",
+        "image": "https://patchwiki.biligame.com/images/ys/0/05/049fpv6jcr66mln0nmbbfgigfrkgrzo.png",
+        "rarity": "5星",
+        "element": "冰",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "嘉明",
+        "image": "https://patchwiki.biligame.com/images/ys/a/a0/5vh3a6zfa666wfxshi1rr29zv4g856d.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "夏沃蕾",
+        "image": "https://patchwiki.biligame.com/images/ys/1/12/iakce2e672fecwy246beikk283jkxy1.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "夏洛蒂",
+        "image": "https://patchwiki.biligame.com/images/ys/3/37/o8580twmm0juo2woot5cc7w4ok1mx70.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "法器"
+      },
+      {
+        "name": "菲米尼",
+        "image": "https://patchwiki.biligame.com/images/ys/3/37/9q78sq7t8twzzavpsyvssvrhk8rk2e7.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "琳妮特",
+        "image": "https://patchwiki.biligame.com/images/ys/a/a5/48n9vyu0y80oimhqzz3g8otvsrs8yi5.png",
+        "rarity": "4星",
+        "element": "风",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "绮良良",
+        "image": "https://patchwiki.biligame.com/images/ys/6/6c/2j2ezxbtzkc2nue8tle7ud492a17tl9.png",
+        "rarity": "4星",
+        "element": "草",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "卡维",
+        "image": "https://patchwiki.biligame.com/images/ys/c/cb/ikw661j7l88l47ngkef9rtocduaznmr.png",
+        "rarity": "4星",
+        "element": "草",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "米卡",
+        "image": "https://patchwiki.biligame.com/images/ys/6/6c/8dqxl2h8lrlz1la3s32y5fctsp8mbm2.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "瑶瑶",
+        "image": "https://patchwiki.biligame.com/images/ys/a/af/1f3bjp39yqbcwv25gz0075vwtmm4gmx.png",
+        "rarity": "4星",
+        "element": "草",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "珐露珊",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d2/lrf5xycxg48dchq27stnpawuvselk4i.png",
+        "rarity": "4星",
+        "element": "风",
+        "weapon": "弓"
+      },
+      {
+        "name": "莱依拉",
+        "image": "https://patchwiki.biligame.com/images/ys/0/0f/k7qq4ohnq5a9rgxn3uuqvmhw5j7y77q.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "坎蒂丝",
+        "image": "https://patchwiki.biligame.com/images/ys/6/67/lstlxgmithufj7tw1uix8wym7jrkp62.png",
+        "rarity": "4星",
+        "element": "水",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "多莉",
+        "image": "https://patchwiki.biligame.com/images/ys/7/7b/b54n1q1ssasdm18swkg6hiwzfzdgqes.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "柯莱",
+        "image": "https://patchwiki.biligame.com/images/ys/2/21/s0xi3unv8y860tefgz49gi56vf0or8z.png",
+        "rarity": "4星",
+        "element": "草",
+        "weapon": "弓"
+      },
+      {
+        "name": "鹿野院平藏",
+        "image": "https://patchwiki.biligame.com/images/ys/7/79/0rst5gg62xkbdkl0jyirunzqstrdn79.png",
+        "rarity": "4星",
+        "element": "风",
+        "weapon": "法器"
+      },
+      {
+        "name": "久岐忍",
+        "image": "https://patchwiki.biligame.com/images/ys/5/5c/36j8hdr1i5dfg0r8tfxl0q8wlc8jndf.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "云堇",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d0/17iziqlqa20jj0w3yhp5bebzoo9y6bt.png",
+        "rarity": "4星",
+        "element": "岩",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "五郎",
+        "image": "https://patchwiki.biligame.com/images/ys/e/e5/8ok291j1owt70axz3l8bxlj51w9rvl5.png",
+        "rarity": "4星",
+        "element": "岩",
+        "weapon": "弓"
+      },
+      {
+        "name": "托马",
+        "image": "https://patchwiki.biligame.com/images/ys/8/87/4npwdwlbof3hff5s7yyoxn5afmyo6bs.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "九条裟罗",
+        "image": "https://patchwiki.biligame.com/images/ys/3/36/bkvh6arzlluljnmsp1c36hbtqf37epy.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "弓"
+      },
+      {
+        "name": "早柚",
+        "image": "https://patchwiki.biligame.com/images/ys/0/0c/g52x6102jce31mjisvtsormdvbvdp1s.png",
+        "rarity": "4星",
+        "element": "风",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "烟绯",
+        "image": "https://patchwiki.biligame.com/images/ys/7/76/mzwn4qo66r2bh5aod73wvmeml4tf3jw.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "法器"
+      },
+      {
+        "name": "罗莎莉亚",
+        "image": "https://patchwiki.biligame.com/images/ys/e/ef/euoe9ncjixk5wlzfumjb81zf2ew7i49.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "辛焱",
+        "image": "https://patchwiki.biligame.com/images/ys/5/50/ssm5hres5t2jcnmqlmxvko87frukaaa.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "迪奥娜",
+        "image": "https://patchwiki.biligame.com/images/ys/9/9e/ebp74g68onexgkc2xsjuornx2j6bowp.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "弓"
+      },
+      {
+        "name": "砂糖",
+        "image": "https://patchwiki.biligame.com/images/ys/6/61/rhbp5t3iyzpsk2dc34kv18yem0nlmzo.png",
+        "rarity": "4星",
+        "element": "风",
+        "weapon": "法器"
+      },
+      {
+        "name": "北斗",
+        "image": "https://patchwiki.biligame.com/images/ys/8/8f/eo7y6muz7scr7y3tdp2995zmxe7no46.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "雷泽",
+        "image": "https://patchwiki.biligame.com/images/ys/e/ed/j7d8muthggxnqfemb3tsbpkwyyzdusw.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "菲谢尔",
+        "image": "https://patchwiki.biligame.com/images/ys/8/8c/cmlxoc9sfz7nrwmt495351zcj1qd93e.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "弓"
+      },
+      {
+        "name": "丽莎",
+        "image": "https://patchwiki.biligame.com/images/ys/8/83/boxpoaln8hyivr555agt2371y3ss8um.png",
+        "rarity": "4星",
+        "element": "雷",
+        "weapon": "法器"
+      },
+      {
+        "name": "班尼特",
+        "image": "https://patchwiki.biligame.com/images/ys/9/99/nd8jx8novy6974e5ez7bz9la04vajw8.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "香菱",
+        "image": "https://patchwiki.biligame.com/images/ys/9/9c/l5ae2erhaq8tn896a2yibndx5g7r5g5.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "长柄武器"
+      },
+      {
+        "name": "安柏",
+        "image": "https://patchwiki.biligame.com/images/ys/1/1c/l3iu4yd9jdee9fjj2ly9bp14dkpamuj.png",
+        "rarity": "4星",
+        "element": "火",
+        "weapon": "弓"
+      },
+      {
+        "name": "芭芭拉",
+        "image": "https://patchwiki.biligame.com/images/ys/4/4c/02mt7yfsuz6ya7z2buugwspnlal13o8.png",
+        "rarity": "4星",
+        "element": "水",
+        "weapon": "法器"
+      },
+      {
+        "name": "行秋",
+        "image": "https://patchwiki.biligame.com/images/ys/b/bf/bz36kyv7jhk9p3sqk6g3r79a7t5aqa2.png",
+        "rarity": "4星",
+        "element": "水",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "诺艾尔",
+        "image": "https://patchwiki.biligame.com/images/ys/3/30/q7e7j4ybveu9vpezgvjogwpmfzz1mm2.png",
+        "rarity": "4星",
+        "element": "岩",
+        "weapon": "双手剑"
+      },
+      {
+        "name": "凝光",
+        "image": "https://patchwiki.biligame.com/images/ys/b/bb/oo4earntw7se6jssxq5tjgsbyxrho79.png",
+        "rarity": "4星",
+        "element": "岩",
+        "weapon": "法器"
+      },
+      {
+        "name": "凯亚",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d5/hyj4s4c0rwh65unllh0emkpdxwf0aq2.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "单手剑"
+      },
+      {
+        "name": "重云",
+        "image": "https://patchwiki.biligame.com/images/ys/b/bd/mpnu86qhgs99cbbt35kb09702aqp70i.png",
+        "rarity": "4星",
+        "element": "冰",
+        "weapon": "双手剑"
+      }
+    ],
+    "lastmod": "此页面最后编辑于2024年1月13日 (星期六) 14:11。",
+    "visited": "此页面已被访问过1,056,340次。"
+  },
+  "mtime": 1707936211594
+}
