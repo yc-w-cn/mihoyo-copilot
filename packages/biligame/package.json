@@ -21,6 +21,8 @@
   "scripts": {
     "dev": "ts-node ./src/cli.ts",
     "ys:dev": "ts-node ./src/cli.ts --game ys",
+    "sr:dev": "ts-node ./src/cli.ts --game sr",
+    "bh3:dev": "ts-node ./src/cli.ts --game bh3",
     "clean": "rimraf ./dist/ ./exec/",
     "build": "pnpm run clean && tsc",
     "test": "pnpm run build && ava --verbose"
