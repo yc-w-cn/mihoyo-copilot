@@ -4,8 +4,8 @@ import { AccountsState } from "@bh3/features/accounts/types";
 import { getAndInitAccounts } from "@bh3/features/accounts/apis";
 import { AccountMeta } from "@bh3/features/accounts/types";
 import { arrayToObject } from "@/utils";
-import { BH3_KEY_PREFIX } from "@/app/bh3/constants";
-import { RootState } from "@/app/bh3/store";
+import { BH3_KEY_PREFIX } from "@bh3/constants";
+import { RootState } from "@bh3/store";
 
 export const fetchAccounts = createAsyncThunk<
   AccountMeta[],

@@ -4,7 +4,7 @@ import { AccountsState } from "@sr/features/accounts/types";
 import { getAndInitAccounts } from "@sr/features/accounts/apis";
 import { AccountMeta } from "@sr/features/accounts/types";
 import { arrayToObject } from "@/utils";
-import { YS_KEY_PREFIX } from "@/app/ys/constants";
+import { YS_KEY_PREFIX } from "@ys/constants";
 import { RootState } from "@sr/store";
 
 export const fetchAccounts = createAsyncThunk<

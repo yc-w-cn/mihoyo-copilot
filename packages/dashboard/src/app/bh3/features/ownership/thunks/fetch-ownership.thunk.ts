@@ -1,9 +1,9 @@
 import { DEFAULT_ERROR_MESSAGE, KnownError } from "@/errors";
 import { ActionReducerMapBuilder, createAsyncThunk } from "@reduxjs/toolkit";
-import { getOwnership } from "@/app/bh3/features/ownership/apis";
+import { getOwnership } from "@bh3/features/ownership/apis";
 import { OwnershipState, OwnershipStateValues } from "../types";
-import { RootState } from "@/app/bh3/store";
-import { BH3_KEY_PREFIX } from "@/app/bh3/constants";
+import { RootState } from "@bh3/store";
+import { BH3_KEY_PREFIX } from "@bh3/constants";
 
 export const fetchOwnership = createAsyncThunk<
   OwnershipStateValues | null,

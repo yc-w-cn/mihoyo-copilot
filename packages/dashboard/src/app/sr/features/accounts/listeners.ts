@@ -1,5 +1,5 @@
 import { Unsubscribe } from "@reduxjs/toolkit";
-import { AppStartListening } from "@ys/store";
+import { AppStartListening } from "@sr/store";
 import { setAccounts } from "./slice";
 import { fetchOwnership } from "../ownership/thunks";
 

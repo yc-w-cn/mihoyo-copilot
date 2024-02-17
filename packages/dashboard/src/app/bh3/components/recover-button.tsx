@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-import { BH3_KEY_PREFIX } from "@/app/bh3/constants";
+import { BH3_KEY_PREFIX } from "@bh3/constants";
 import { recovery } from "@/utils/localforage/recover";
 import { getLogger } from "@/utils/logger";
 import { ChangeEvent } from "react";

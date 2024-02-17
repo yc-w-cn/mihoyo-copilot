@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import dayjs from "dayjs";
 import { ISO_DATE_FORMAT, backup } from "@/utils";
-import { YS_KEY_PREFIX } from "@/app/ys/constants";
+import { YS_KEY_PREFIX } from "@ys/constants";
 
 export function BackupButton() {
   const handleExport = async () => {
