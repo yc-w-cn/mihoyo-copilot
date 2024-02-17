@@ -1,9 +1,6 @@
-import { CharacterMeta } from "@ys/features/characters/types";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ToggleCharacterContainer } from "./toggle-character-container";
 import { useMemo } from "react";
 import { useAppSelector } from "@ys/hooks";
-import { GroupEmptyPlaceholder } from "./group-empty-placeholder";
 
 export type CharactersPanelProps = {
   showImage?: boolean;
