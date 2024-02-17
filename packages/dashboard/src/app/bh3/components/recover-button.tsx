@@ -7,7 +7,7 @@ import { recovery } from "@/utils/localforage/recover";
 import { getLogger } from "@/utils/logger";
 import { ChangeEvent } from "react";
 import { useAppDispatch } from "@bh3/hooks";
-import { fetchAccounts } from "../features/accounts/thunks";
+import { fetchAccounts } from "@bh3/features/accounts/thunks";
 
 export function RecoverButton() {
   const logger = getLogger(RecoverButton);
