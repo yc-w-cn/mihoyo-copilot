@@ -2,6 +2,7 @@
   "name": "@mihoyo-copilot/dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yc-w-cn.github.io/mihoyo-copilot",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
