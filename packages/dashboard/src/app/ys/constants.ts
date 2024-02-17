@@ -1,0 +1,1 @@
+export const YS_KEY_PREFIX = "ys"
