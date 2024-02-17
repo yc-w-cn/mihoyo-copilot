@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-import { BH3_KEY_PREFIX } from "@/app/bh3/constants";
+import { YS_KEY_PREFIX } from "@ys/constants";
 import { recovery } from "@/utils/localforage/recover";
 import { getLogger } from "@/utils/logger";
 import { ChangeEvent } from "react";
@@ -22,7 +22,7 @@ export function RecoverButton() {
         const content = e.target.result;
         try {
           const parsedJSON = JSON.parse(content);
-          await recovery(parsedJSON, BH3_KEY_PREFIX);
+          await recovery(parsedJSON, YS_KEY_PREFIX);
           dispatch(fetchAccounts()); // Reload
           toast({
             description: "操作成功",
