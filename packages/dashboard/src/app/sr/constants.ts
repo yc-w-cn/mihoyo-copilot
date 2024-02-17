@@ -1,0 +1,1 @@
+export const SR_KEY_PREFIX = "sr"
