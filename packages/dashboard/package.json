@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "star-rail:get-charactors": "ts-node --project ./tsconfig.node.json -r ts-node/register ./scripts/star-rail/get-charactors/index.ts"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.4",
