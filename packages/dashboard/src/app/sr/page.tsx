@@ -5,7 +5,7 @@ import { PageContent } from "./page-content";
 import { CharacterMeta } from "./features/characters";
 
 export const metadata: Metadata = {
-  title: "原神",
+  title: "崩坏：星穹铁道",
 };
 
 const HomePage = async () => {
