@@ -21,25 +21,25 @@ const HomePage = () => {
       </div>
       <div className="flex gap-4">
         <Link
-          target="_blank"
+          target="_self"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href="/bh3"
           className={buttonVariants({ variant: "outline" })}
         >
           崩坏3
         </Link>
         <Link
-          target="_blank"
+          target="_self"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href="/ys"
           className={buttonVariants({ variant: "outline" })}
         >
           原神
         </Link>
         <Link
-          target="_blank"
+          target="_self"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href="/sr"
           className={buttonVariants({ variant: "outline" })}
         >
           崩坏：星穹铁道
