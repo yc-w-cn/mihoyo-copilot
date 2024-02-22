@@ -1,5 +1,5 @@
 import axios from "axios";
-import { TargetType } from "..";
+import { TargetType } from "../biligame";
 import { handleCharacters } from "./characters";
 
 export const BASE_URL = "https://wiki.biligame.com/bh3/";

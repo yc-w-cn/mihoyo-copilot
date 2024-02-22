@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 import { Command, Option } from "commander";
 
-import { biligame } from "./index";
+import { biligame } from "./biligame";
+import { exit } from "process";
 
 const program = new Command();
+
+console.log('process.argv', process.argv)
 
 program
   .name("biligame")
@@ -14,14 +17,17 @@ program
       .choices(["sr", "ys", "bh3"])
       .default("sr")
   )
-  .option("-o, --outputDir <directory>", "specify output dir", process.cwd())
   .addOption(
-    new Option("-t, --target", "specify output target (characters)")
-      .choices(["characters"])
+    new Option("-n, --name <name>", "specify character name")
+  )
+  .option("-o, --outputDir <outputDir>", "specify output dir", process.cwd())
+  .addOption(
+    new Option("-t, --target <target>", "specify output target (characters, character-detail)")
+      .choices(["characters", "character-detail"])
       .default("characters")
   )
   .addOption(
-    new Option("-c, --cache", "whether to check cache file data").default(true)
+    new Option("-c, --cache <cache>", "whether to check cache file data").default(true)
   )
   .parse(process.argv);
 
@@ -29,5 +35,6 @@ biligame({
   game: program.opts().game,
   outputDir: program.opts().outputDir,
   target: program.opts().target,
+  name:  program.opts().name,
   cache: program.opts().cache,
 });
