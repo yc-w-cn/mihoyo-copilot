@@ -72,6 +72,37 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
           .trim(),
       },
       TAG: $properties.find("tr:nth-child(9) > td").text().trim(),
+      recommend: {
+        隧洞遗器: $("tr")
+          .filter((_, element) => {
+            return $(element).find("th").text().trim() === "隧洞遗器";
+          })
+          .find("td .item > a")
+          .map((_, element) => $(element).attr("title"))
+          .get(),
+        位面饰品: $("tr")
+          .filter((_, element) => {
+            return $(element).find("th").text().trim() === "位面饰品";
+          })
+          .find("td .item > a")
+          .map((_, element) => $(element).attr("title"))
+          .get(),
+        毕业光锥: $("tr")
+          .filter((_, element) => {
+            return $(element).find("th").text().trim() === "毕业光锥";
+          })
+          .find("td .item > a")
+          .map((_, element) => $(element).attr("title"))
+          .get(),
+        可选光锥: $("tr")
+          .filter((_, element) => {
+            return $(element).find("th").text().trim() === "可选光锥";
+          })
+          .find("td .item > a")
+          .map((_, element) => $(element).attr("title"))
+          .get(),
+        阵容搭配: getTeams($),
+      },
       lastmod: $(".pc-serve-msg > p:nth-child(2) > span").text().trim(),
       visited: $("#footer-info-0").text().trim(),
       version: $(".printfooter > a").text().trim(),
@@ -79,4 +110,51 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
     reference: `https://wiki.biligame.com/sr/${name}`,
     mtime: new Date().getTime(),
   };
+}
+
+export function zipArrays<T = any>(
+  keyArray: string[],
+  valueArray: T[]
+): Record<string, T> {
+  const result: Record<string, T> = {};
+
+  const minLength = Math.min(keyArray.length, valueArray.length);
+  for (let i = 0; i < minLength; i++) {
+    result[keyArray[i]] = valueArray[i];
+  }
+
+  return result;
+}
+
+export function getTeams($: cheerio.CheerioAPI): Record<string, any> {
+  const title = $("h3").filter(
+    (_, element) => $(element).find(".mw-headline").text().trim() === "阵容搭配"
+  );
+
+  const names = title
+    .next(".main-line-wrap ")
+    .find(".resp-tabs-list li .tab-panel")
+    .map((_, element) => $(element).text().trim())
+    .get();
+
+  const members = [];
+
+  title
+    .next(".main-line-wrap")
+    .find(".resp-tab-content > table")
+    .each((_, element) => {
+      const labels = $(element)
+        .find("tr th")
+        .map((_, element) => $(element).text().trim())
+        .get();
+      const characters = $(element)
+        .find("tr td div.tubiaoda")
+        .map((_, element) => $(element).find("a").attr("title"))
+        .get();
+        console.log('characters', characters)
+      members.push(zipArrays(labels, characters));
+    })
+    .get();
+
+  return zipArrays(names, members);
 }
