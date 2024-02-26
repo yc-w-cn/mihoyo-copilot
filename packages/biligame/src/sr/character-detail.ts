@@ -51,6 +51,26 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
       阵营: $properties.find("tr:nth-child(6) > td").text().trim(),
       "常驻/限定": $properties.find("tr:nth-child(7) > td").text().trim(),
       实装日期: $properties.find("tr:nth-child(8) > td").text().trim(),
+      xinghun: {
+        1: $('[data-xinghuntype="xinghun-name-A"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+        2: $('[data-xinghuntype="xinghun-name-B"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+        3: $('[data-xinghuntype="xinghun-name-C"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+        4: $('[data-xinghuntype="xinghun-name-D"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+        5: $('[data-xinghuntype="xinghun-name-E"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+        6: $('[data-xinghuntype="xinghun-name-F"] .flex-col span:nth-child(2)')
+          .text()
+          .trim(),
+      },
       TAG: $properties.find("tr:nth-child(9) > td").text().trim(),
       lastmod: $(".pc-serve-msg > p:nth-child(2) > span").text().trim(),
       visited: $("#footer-info-0").text().trim(),
