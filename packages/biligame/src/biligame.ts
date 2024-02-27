@@ -26,7 +26,7 @@ export async function biligame(options: BiligameOptions) {
       handleSrCommand(options);
       break;
     case "ys":
-      handleYsCommand(target, outputDir, cache);
+      handleYsCommand(options);
       break;
     case "bh3":
       handleBh3Command(target, outputDir, cache);

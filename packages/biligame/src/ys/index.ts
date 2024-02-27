@@ -1,6 +1,7 @@
 import axios from "axios";
-import { TargetType } from "../biligame";
+import { BiligameOptions } from "@/biligame";
 import { handleCharacters } from "./characters";
+import { handleCharacterDetail } from "./character-detail";
 
 export const BASE_URL = "https://wiki.biligame.com/ys/";
 
@@ -8,14 +9,14 @@ export const axiosInstance = axios.create({
   baseURL: BASE_URL,
 });
 
-export async function handleYsCommand(
-  target: TargetType,
-  outputDir: string,
-  cache: boolean
-) {
+export async function handleYsCommand(options: BiligameOptions) {
+  const { target, outputDir, cache } = options;
   switch (target) {
     case "characters":
       await handleCharacters(outputDir, cache);
+      break;
+    case "character-detail":
+      await handleCharacterDetail(options);
       break;
   }
 }
