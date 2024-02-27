@@ -1,49 +1,51 @@
 import * as cheerio from "cheerio";
-import { fileExists, readFromFile, saveToFile } from "../utils";
 import { axiosInstance } from ".";
+import { BiligameOptions } from "@/biligame";
+import { ExecuteOptions, execute } from "@/execute";
+import { handleCharacterDetail } from "./character-detail";
 
-const CACHE_FILE_NAME = "ys-characters.html";
-const OUTPUT_FILE_NAME = "ys-characters.json";
-
-export async function handleCharacters(outputDir: string, cache: boolean) {
-  const html = await getCharactersHtml(outputDir, cache);
-  const outputData = await getCharacters(html);
-  saveToFile(outputData, OUTPUT_FILE_NAME, outputDir);
+export async function handleCharacters(biligameOptions: BiligameOptions) {
+  const { name, game } = biligameOptions;
+  return execute({
+    name: `execute-sr-character-detail-${name}`,
+    biligameOptions,
+    fetchFn,
+    parseFn,
+    cacheFileName: `${game}-characters.html`,
+    outputFileName: `${game}-characters.json`,
+  });
 }
 
-export async function getCharactersHtml(outputDir: string, cache: boolean) {
-  // check: cache
-  if (cache) {
-    const exists = await fileExists(CACHE_FILE_NAME, outputDir);
-    if (exists) {
-      const html = await readFromFile(CACHE_FILE_NAME, outputDir);
-      return html;
-    }
-  }
-  // default/fallback: fetch
-  const html = await fetchCharacters();
-  await saveToFile(html, CACHE_FILE_NAME, outputDir);
-  return html;
-}
-
-export async function fetchCharacters() {
+export async function fetchFn() {
   const response = await axiosInstance.get("/角色");
   return response.data;
 }
 
-export async function getCharacters(html: string) {
+export async function parseFn(html: string, options: ExecuteOptions) {
   const $ = cheerio.load(html);
+  const { biligameOptions } = options;
+  const characters = $(".divsort")
+    .map((_, element) => ({
+      name: $(element).find(".L").text(),
+      image: $(element).find("img").attr("src"),
+      rarity: $(element).data("param1"),
+      element: $(element).data("param2"),
+      weapon: $(element).data("param3"),
+    }))
+    .get();
+
+  // download details
+  for (const character of characters) {
+    await handleCharacterDetail({
+      ...biligameOptions,
+      target: "character-detail",
+      name: character.name,
+    });
+  }
+
   return {
     meta: {
-      characters: $(".divsort")
-        .map((_, element) => ({
-          name: $(element).find(".L").text(),
-          image: $(element).find("img").attr("src"),
-          rarity: $(element).data("param1"),
-          element: $(element).data("param2"),
-          weapon: $(element).data("param3"),
-        }))
-        .get(),
+      characters,
       lastmod: $("#footer-info-lastmod").text().trim(),
       visited: $("#footer-info-0").text().trim(),
     },

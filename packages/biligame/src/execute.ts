@@ -11,11 +11,15 @@ export type ExecuteOptions = {
 };
 
 export async function execute(options: ExecuteOptions) {
-  const { parseFn, outputFileName, biligameOptions } = options;
-  const { outputDir } = biligameOptions;
-  const html = await fetchHtml(options);
-  const outputData = await parseFn(html, options);
-  await saveToFile(outputData, outputFileName, outputDir);
+  try {
+    const { parseFn, outputFileName, biligameOptions } = options;
+    const { outputDir } = biligameOptions;
+    const html = await fetchHtml(options);
+    const outputData = await parseFn(html, options);
+    await saveToFile(outputData, outputFileName, outputDir);
+  } catch (e) {
+    console.error("error", e);
+  }
 }
 
 export async function fetchHtml(options: ExecuteOptions) {

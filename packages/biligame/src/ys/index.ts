@@ -10,10 +10,10 @@ export const axiosInstance = axios.create({
 });
 
 export async function handleYsCommand(options: BiligameOptions) {
-  const { target, outputDir, cache } = options;
+  const { target } = options;
   switch (target) {
     case "characters":
-      await handleCharacters(outputDir, cache);
+      await handleCharacters(options);
       break;
     case "character-detail":
       await handleCharacterDetail(options);

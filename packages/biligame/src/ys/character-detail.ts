@@ -18,9 +18,11 @@ export async function handleCharacterDetail(biligameOptions: BiligameOptions) {
 export async function fetchFn(options: ExecuteOptions) {
   const { biligameOptions } = options;
   if (biligameOptions.name) {
-    const response = await axiosInstance.get<string>(
-      "/" + biligameOptions.name
-    );
+    let name = biligameOptions.name;
+    if (name.includes("旅行者")) {
+      name = "旅行者/" + name.replace("旅行者(", "").replace(")", "");
+    }
+    const response = await axiosInstance.get<string>("/" + name);
     return response.data;
   }
   return null;
@@ -51,7 +53,7 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
       ]),
       rarity: $("tr")
         .filter((_, element) => {
-          return $(element).find("th").text().trim() === '稀有度';
+          return $(element).find("th").text().trim() === "稀有度";
         })
         .find("img")
         .attr("alt")
