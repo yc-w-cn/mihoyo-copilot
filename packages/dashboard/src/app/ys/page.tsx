@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const HomePage = async () => {
   const file = await fs.readFile(
-    path.join(process.cwd(), "/src/app/ys/characters.json"),
+    path.join(process.cwd(), "../biligame/output/ys-characters.json"),
     "utf8"
   );
   const characters: CharacterMeta[] = JSON.parse(file).meta.characters;
