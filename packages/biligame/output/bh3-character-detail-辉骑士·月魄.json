@@ -4,9 +4,9 @@
     "装甲名": "辉骑士·月魄",
     "角色名": "比安卡·幽兰黛尔·阿塔吉娜",
     "简称": "呆鹅、机鹅",
-    "稀有度": "S",
     "属性": "机械",
     "特色": "爆发输出兼顾持续输出",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=辉骑士·月魄&oldid=6919"
   },
   "reference": "https://wiki.biligame.com/bh3/辉骑士·月魄",
-  "mtime": 1709033825435
+  "mtime": 1709037647371
 }

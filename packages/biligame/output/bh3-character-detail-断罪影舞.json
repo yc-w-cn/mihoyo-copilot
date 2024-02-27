@@ -4,9 +4,9 @@
     "装甲名": "断罪影舞",
     "角色名": "雷电芽衣",
     "简称": "增幅影舞、省电芽衣",
-    "稀有度": "A",
     "属性": "机械",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=断罪影舞&oldid=7203"
   },
   "reference": "https://wiki.biligame.com/bh3/断罪影舞",
-  "mtime": 1709033824094
+  "mtime": 1709037645558
 }

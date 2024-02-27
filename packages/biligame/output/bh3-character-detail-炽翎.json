@@ -4,9 +4,9 @@
     "装甲名": "炽翎",
     "角色名": "符华",
     "简称": "火符",
-    "稀有度": "S",
     "属性": "异能",
     "特色": "元素辅助",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=炽翎&oldid=4934"
   },
   "reference": "https://wiki.biligame.com/bh3/炽翎",
-  "mtime": 1709033824909
+  "mtime": 1709037646682
 }

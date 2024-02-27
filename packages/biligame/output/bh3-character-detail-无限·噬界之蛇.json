@@ -4,9 +4,9 @@
     "装甲名": "无限·噬界之蛇",
     "角色名": "梅比乌斯",
     "简称": "蛇蛇",
-    "稀有度": "S",
     "属性": "机械",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=无限·噬界之蛇&oldid=7010"
   },
   "reference": "https://wiki.biligame.com/bh3/无限·噬界之蛇",
-  "mtime": 1709033825561
+  "mtime": 1709037647564
 }

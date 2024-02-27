@@ -4,9 +4,9 @@
     "装甲名": "午夜苦艾",
     "角色名": "娜塔莎·希奥拉",
     "简称": "渡鸦、小岛爆爆鸦",
-    "稀有度": "A",
     "属性": "虚数",
     "特色": "远距离元素辅助。必杀技创造大量烟雾，使敌人受到的火焰元素伤害提高。",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=午夜苦艾&oldid=7224"
   },
   "reference": "https://wiki.biligame.com/bh3/午夜苦艾",
-  "mtime": 1709033825583
+  "mtime": 1709037647595
 }

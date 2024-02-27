@@ -4,9 +4,9 @@
     "装甲名": "极地战刃",
     "角色名": "无量塔姬子",
     "简称": "极地、血舞发射器",
-    "稀有度": "A",
     "属性": "",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=极地战刃&oldid=4909"
   },
   "reference": "https://wiki.biligame.com/bh3/极地战刃",
-  "mtime": 1709033824495
+  "mtime": 1709037646145
 }

@@ -9,6 +9,7 @@ import { CharacterMeta } from "@bh3/features/characters/types";
 import StoreProvider from "@bh3/store-provider";
 import { OwnershipFilterSelect } from "./components/ownership-filter-select";
 import { ShowGroupCheckbox } from "./components/show-group-checkbox";
+import { DashboardPanel } from "./components/dashboard-panel";
 
 export type PageContentProps = {
   characters?: CharacterMeta[];
@@ -28,6 +29,7 @@ export function PageContent({ characters = [] }: PageContentProps) {
             <TabsList>
               <TabsTrigger value="text">文字</TabsTrigger>
               <TabsTrigger value="image-text">图文</TabsTrigger>
+              <TabsTrigger value="dashboard">面板</TabsTrigger>
             </TabsList>
             <ShowGroupCheckbox />
             <OwnershipFilterSelect />
@@ -39,6 +41,9 @@ export function PageContent({ characters = [] }: PageContentProps) {
           </TabsContent>
           <TabsContent value="image-text">
             <CharactersPanel showImage={true} />
+          </TabsContent>
+          <TabsContent value="dashboard">
+            <DashboardPanel />
           </TabsContent>
         </Tabs>
       </section>

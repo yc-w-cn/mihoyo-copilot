@@ -4,9 +4,9 @@
     "装甲名": "月下初拥",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "月下、犹大夯地机",
-    "稀有度": "A",
     "属性": "生物",
     "特色": "官配CP",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=月下初拥&oldid=6055"
   },
   "reference": "https://wiki.biligame.com/bh3/月下初拥",
-  "mtime": 1709033824701
+  "mtime": 1709037646433
 }

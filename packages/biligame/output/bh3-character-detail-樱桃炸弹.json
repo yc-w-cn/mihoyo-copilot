@@ -4,9 +4,9 @@
     "装甲名": "樱桃炸弹",
     "角色名": "萝莎莉娅·阿琳",
     "简称": "粉毛",
-    "稀有度": "S",
     "属性": "异能",
     "特色": "非常优秀的血舞发射器，作为物理输出时有着不错的对群能力，但是极其依赖蓝莓特攻。",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=樱桃炸弹&oldid=5682"
   },
   "reference": "https://wiki.biligame.com/bh3/樱桃炸弹",
-  "mtime": 1709033825270
+  "mtime": 1709037647153
 }

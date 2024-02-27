@@ -4,9 +4,9 @@
     "装甲名": "圣女祈祷",
     "角色名": "琪亚娜·卡斯兰娜",
     "简称": "圣女",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "辅助、回血、能后台对单个敌人施加高额脆弱，单体时断，大招期间全程时断。",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=圣女祈祷&oldid=4529"
   },
   "reference": "https://wiki.biligame.com/bh3/圣女祈祷",
-  "mtime": 1709033823999
+  "mtime": 1709037645326
 }

@@ -4,9 +4,9 @@
     "装甲名": "时帆旅人",
     "角色名": "爱衣·休伯利安Λ",
     "简称": "爱衣",
-    "稀有度": "A",
     "属性": "机械",
     "特色": "火焰元素辅助\n离场后也可持续对敌人造成火焰元素伤害终级技能提高全队队员的全伤害",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=时帆旅人&oldid=7257"
   },
   "reference": "https://wiki.biligame.com/bh3/时帆旅人",
-  "mtime": 1709033825740
+  "mtime": 1709037647825
 }

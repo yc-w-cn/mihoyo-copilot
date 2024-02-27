@@ -4,9 +4,9 @@
     "装甲名": "女武神·誓约",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "誓约、犹大发射器、女武神·犹大、大姨妈",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·誓约&oldid=6480"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·誓约",
-  "mtime": 1709033824793
+  "mtime": 1709037646538
 }

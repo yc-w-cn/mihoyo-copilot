@@ -4,9 +4,9 @@
     "装甲名": "薪炎之律者",
     "角色名": "琪亚娜·卡斯兰娜",
     "简称": "萤火虫",
-    "稀有度": "S",
     "属性": "异能",
     "特色": "近距离火焰输出；可在空中作战；利用律者形态进行爆发输出",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=薪炎之律者&oldid=7043"
   },
   "reference": "https://wiki.biligame.com/bh3/薪炎之律者",
-  "mtime": 1709033823880
+  "mtime": 1709037645156
 }

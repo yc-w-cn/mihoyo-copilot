@@ -4,9 +4,9 @@
     "装甲名": "逆神巫女",
     "角色名": "八重樱",
     "简称": "樱八，生八、A八",
-    "稀有度": "A",
     "属性": "生物",
     "特色": "刃反",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=逆神巫女&oldid=5655"
   },
   "reference": "https://wiki.biligame.com/bh3/逆神巫女",
-  "mtime": 1709033825143
+  "mtime": 1709037646985
 }

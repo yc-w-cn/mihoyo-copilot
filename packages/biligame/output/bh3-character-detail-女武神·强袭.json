@@ -4,9 +4,9 @@
     "装甲名": "女武神·强袭",
     "角色名": "雷电芽衣",
     "简称": "强袭、强日天、强无敌、先走强袭后有天，反向分支日神仙",
-    "稀有度": "A",
     "属性": "生物",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·强袭&oldid=4898"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·强袭",
-  "mtime": 1709033824190
+  "mtime": 1709037645687
 }

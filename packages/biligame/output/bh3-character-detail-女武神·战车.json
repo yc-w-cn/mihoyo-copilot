@@ -4,9 +4,9 @@
     "装甲名": "女武神·战车",
     "角色名": "布洛妮娅·扎伊切克",
     "简称": "战车",
-    "稀有度": "B",
     "属性": "异能",
     "特色": "聚怪 流血 点燃",
+    "rarity": "B",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·战车&oldid=4908"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·战车",
-  "mtime": 1709033824477
+  "mtime": 1709037646118
 }

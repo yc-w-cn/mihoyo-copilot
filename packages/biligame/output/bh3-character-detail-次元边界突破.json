@@ -4,9 +4,9 @@
     "装甲名": "次元边界突破",
     "角色名": "布洛妮娅·扎伊切克",
     "简称": "次元、C级女武神",
-    "稀有度": "S",
     "属性": "机械",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=次元边界突破&oldid=5619"
   },
   "reference": "https://wiki.biligame.com/bh3/次元边界突破",
-  "mtime": 1709033824413
+  "mtime": 1709037646021
 }

@@ -4,9 +4,9 @@
     "装甲名": "影舞冲击",
     "角色名": "雷电芽衣",
     "简称": "影舞、鹦鹉",
-    "稀有度": "A",
     "属性": "机械",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=影舞冲击&oldid=5418"
   },
   "reference": "https://wiki.biligame.com/bh3/影舞冲击",
-  "mtime": 1709033824210
+  "mtime": 1709037645720
 }

@@ -4,9 +4,9 @@
     "装甲名": "樱火轮舞",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "火傻、樱傻",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=樱火轮舞&oldid=6468"
   },
   "reference": "https://wiki.biligame.com/bh3/樱火轮舞",
-  "mtime": 1709033824751
+  "mtime": 1709037646484
 }

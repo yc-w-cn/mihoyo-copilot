@@ -4,9 +4,9 @@
     "装甲名": "始源之律者",
     "角色名": "雷电芽衣",
     "简称": "",
-    "稀有度": "S",
     "属性": "虚数",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "毕业",
@@ -23,5 +23,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=始源之律者&oldid=7210"
   },
   "reference": "https://wiki.biligame.com/bh3/始源之律者",
-  "mtime": 1709033824074
+  "mtime": 1709037645520
 }

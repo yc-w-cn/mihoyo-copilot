@@ -2,6 +2,12 @@ export type CharacterMeta = {
   headline: string;
   name: string;
   image: string;
+  detail?: CharacterDetail;
+};
+
+export type CharacterDetail = {
+  rarity: string;
+  [key: string]: any;
 };
 
 export const DEFAULT_CHARACTERS_STATE: CharactersState = {

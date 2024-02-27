@@ -4,9 +4,9 @@
     "装甲名": "云墨丹心",
     "角色名": "符华",
     "简称": "云墨、墨符",
-    "稀有度": "S",
     "属性": "异能",
     "特色": "元素辅助",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=云墨丹心&oldid=6528"
   },
   "reference": "https://wiki.biligame.com/bh3/云墨丹心",
-  "mtime": 1709033824862
+  "mtime": 1709037646625
 }

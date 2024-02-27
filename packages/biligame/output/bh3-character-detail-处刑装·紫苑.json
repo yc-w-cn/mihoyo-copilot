@@ -4,9 +4,9 @@
     "装甲名": "处刑装·紫苑",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "月煌 猫沙猫紫苑何迫萝",
-    "稀有度": "S   C级女武神",
     "属性": "机械",
     "特色": "可以增幅",
+    "rarity": "S   C级女武神",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=处刑装·紫苑&oldid=4927"
   },
   "reference": "https://wiki.biligame.com/bh3/处刑装·紫苑",
-  "mtime": 1709033824769
+  "mtime": 1709037646508
 }

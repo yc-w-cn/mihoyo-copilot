@@ -4,9 +4,9 @@
     "装甲名": "空梦·掠集之兽",
     "角色名": "帕朵菲莉丝",
     "简称": "猫猫",
-    "稀有度": "S",
     "属性": "虚数",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "毕业",
@@ -20,5 +20,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=空梦·掠集之兽&oldid=7106"
   },
   "reference": "https://wiki.biligame.com/bh3/空梦·掠集之兽",
-  "mtime": 1709033825622
+  "mtime": 1709037647659
 }

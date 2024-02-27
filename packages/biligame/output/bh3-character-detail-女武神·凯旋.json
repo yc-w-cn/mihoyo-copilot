@@ -4,9 +4,9 @@
     "装甲名": "女武神·凯旋",
     "角色名": "无量塔姬子",
     "简称": "凯旋",
-    "稀有度": "A",
     "属性": "",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·凯旋&oldid=4916"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·凯旋",
-  "mtime": 1709033824579
+  "mtime": 1709037646289
 }

@@ -4,9 +4,9 @@
     "装甲名": "彼岸双生",
     "角色名": "希儿·芙乐艾",
     "简称": "黑犀侠、黑希",
-    "稀有度": "S",
     "属性": "量子物理",
     "特色": "破盾能力强拜托了，另一个我",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=彼岸双生&oldid=4577"
   },
   "reference": "https://wiki.biligame.com/bh3/彼岸双生",
-  "mtime": 1709033825353
+  "mtime": 1709037647260
 }

@@ -4,9 +4,9 @@
     "装甲名": "苍骑士·月魂",
     "角色名": "丽塔·洛丝薇瑟",
     "简称": "月魂、冰丽塔、冰箱的主人、冰箱",
-    "稀有度": "S",
     "属性": "生物",
     "特色": "冰蚀、冰牢",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=苍骑士·月魂&oldid=6059"
   },
   "reference": "https://wiki.biligame.com/bh3/苍骑士·月魂",
-  "mtime": 1709033825052
+  "mtime": 1709037646859
 }

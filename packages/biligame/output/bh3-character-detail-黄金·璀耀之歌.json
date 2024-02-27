@@ -4,9 +4,9 @@
     "装甲名": "黄金·璀耀之歌",
     "角色名": "伊甸",
     "简称": "",
-    "稀有度": "S",
     "属性": "",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "毕业",
@@ -20,5 +20,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=黄金·璀耀之歌&oldid=7093"
   },
   "reference": "https://wiki.biligame.com/bh3/黄金·璀耀之歌",
-  "mtime": 1709033825661
+  "mtime": 1709037647724
 }

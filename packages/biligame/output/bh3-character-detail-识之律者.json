@@ -4,9 +4,9 @@
     "装甲名": "识之律者",
     "角色名": "符华",
     "简称": "识律、识宝、小识",
-    "稀有度": "S",
     "属性": "生物",
     "特色": "生物属性物理辅助角色，同时兼顾一定的输出能力。我什么都能做得到",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -59,5 +59,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=识之律者&oldid=7078"
   },
   "reference": "https://wiki.biligame.com/bh3/识之律者",
-  "mtime": 1709033824815
+  "mtime": 1709037646568
 }

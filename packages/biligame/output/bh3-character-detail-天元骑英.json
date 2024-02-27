@@ -4,9 +4,9 @@
     "装甲名": "天元骑英",
     "角色名": "比安卡·幽兰黛尔·阿塔吉娜",
     "简称": "克里希那",
-    "稀有度": "S",
     "属性": "虚数",
     "特色": "",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -59,5 +59,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=天元骑英&oldid=7015"
   },
   "reference": "https://wiki.biligame.com/bh3/天元骑英",
-  "mtime": 1709033825395
+  "mtime": 1709037647312
 }

@@ -4,9 +4,9 @@
     "装甲名": "女武神·热砂",
     "角色名": "苏珊娜",
     "简称": "",
-    "稀有度": "A",
     "属性": "量子",
     "特色": "量子物理输出\n使用环刃的双刀模式跳起铃鼓舞蹈进行战斗\n必杀技进入【起舞】状态造成大量伤害",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·热砂&oldid=7260"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·热砂",
-  "mtime": 1709033825763
+  "mtime": 1709037647853
 }

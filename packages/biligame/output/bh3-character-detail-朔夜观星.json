@@ -4,9 +4,9 @@
     "装甲名": "朔夜观星",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "观星、傻子望天",
-    "稀有度": "A",
     "属性": "生物",
     "特色": "后台高额辅助",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=朔夜观星&oldid=6462"
   },
   "reference": "https://wiki.biligame.com/bh3/朔夜观星",
-  "mtime": 1709033824660
+  "mtime": 1709037646375
 }

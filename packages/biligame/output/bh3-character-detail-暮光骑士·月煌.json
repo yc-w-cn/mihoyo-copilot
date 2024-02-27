@@ -4,9 +4,9 @@
     "装甲名": "暮光骑士·月煌",
     "角色名": "德丽莎·阿波卡利斯",
     "简称": "紫苑以前的叫月煌",
-    "稀有度": "S",
     "属性": "机械",
     "特色": "启动快，依靠快速叠加连击数进行高爆发的物理角色，对单能力很强，对群疲软。",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=暮光骑士·月煌&oldid=6430"
   },
   "reference": "https://wiki.biligame.com/bh3/暮光骑士·月煌",
-  "mtime": 1709033824683
+  "mtime": 1709037646397
 }

@@ -4,9 +4,9 @@
     "装甲名": "明日福音",
     "角色名": "式波·明日香·兰格雷",
     "简称": "明日香",
-    "稀有度": "A",
     "属性": "生物",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=明日福音&oldid=6329"
   },
   "reference": "https://wiki.biligame.com/bh3/明日福音",
-  "mtime": 1709033825480
+  "mtime": 1709037647429
 }

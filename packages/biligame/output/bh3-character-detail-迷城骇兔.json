@@ -4,9 +4,9 @@
     "装甲名": "迷城骇兔",
     "角色名": "布洛妮娅·扎伊切克",
     "简称": "布朗尼，吃老虎的兔子",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "冰系辅助",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=迷城骇兔&oldid=6452"
   },
   "reference": "https://wiki.biligame.com/bh3/迷城骇兔",
-  "mtime": 1709033824301
+  "mtime": 1709037645871
 }

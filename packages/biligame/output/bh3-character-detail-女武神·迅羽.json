@@ -4,9 +4,9 @@
     "装甲名": "女武神·迅羽",
     "角色名": "符华",
     "简称": "迅羽",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=女武神·迅羽&oldid=4936"
   },
   "reference": "https://wiki.biligame.com/bh3/女武神·迅羽",
-  "mtime": 1709033824956
+  "mtime": 1709037646743
 }

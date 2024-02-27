@@ -13,7 +13,19 @@ const HomePage = async () => {
     path.join(process.cwd(), "../biligame/output/ys-characters.json"),
     "utf8"
   );
-  const characters: CharacterMeta[] = JSON.parse(file).meta.characters;
+  const characters: CharacterMeta[] = file
+    ? JSON.parse(file).meta.characters
+    : [];
+  for (const character of characters) {
+    const detailFile = await fs.readFile(
+      path.join(
+        process.cwd(),
+        `../biligame/output/ys-character-detail-${character.name}.json`
+      ),
+      "utf8"
+    );
+    character.detail = detailFile ? JSON.parse(detailFile).meta : null;
+  }
 
   return <PageContent characters={characters} />;
 };

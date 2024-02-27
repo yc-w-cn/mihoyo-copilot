@@ -4,9 +4,9 @@
     "装甲名": "终焉之律者",
     "角色名": "琪亚娜·卡斯兰娜",
     "简称": "终焉",
-    "稀有度": "S",
     "属性": "虚数",
     "特色": "火队主输出",
+    "rarity": "S",
     "recommend": [
       {
         "category": "肝物",
@@ -29,5 +29,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=终焉之律者&oldid=7291"
   },
   "reference": "https://wiki.biligame.com/bh3/终焉之律者",
-  "mtime": 1709033823852
+  "mtime": 1709037645104
 }

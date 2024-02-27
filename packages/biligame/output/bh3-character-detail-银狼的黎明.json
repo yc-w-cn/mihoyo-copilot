@@ -4,9 +4,9 @@
     "装甲名": "银狼的黎明",
     "角色名": "布洛妮娅·扎伊切克",
     "简称": "银狼",
-    "稀有度": "A",
     "属性": "异能",
     "特色": "元素辅助",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -50,5 +50,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=银狼的黎明&oldid=5620"
   },
   "reference": "https://wiki.biligame.com/bh3/银狼的黎明",
-  "mtime": 1709033824391
+  "mtime": 1709037645992
 }

@@ -4,9 +4,9 @@
     "装甲名": "玉骑士·月痕",
     "角色名": "李素裳",
     "简称": "李大枕头、小李子",
-    "稀有度": "S",
     "属性": "异能",
     "特色": "冰冻元素辅助\n利用剑阵进行高频攻击\n终级技能为全队冰冻元素伤害队友提高元素穿透",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=玉骑士·月痕&oldid=7250"
   },
   "reference": "https://wiki.biligame.com/bh3/玉骑士·月痕",
-  "mtime": 1709033825721
+  "mtime": 1709037647803
 }

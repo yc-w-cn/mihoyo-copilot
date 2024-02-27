@@ -4,9 +4,9 @@
     "装甲名": "空之律者",
     "角色名": "琪亚娜·卡斯兰娜",
     "简称": "NaCl、氯化钠、空律、女王、时代的泪珠子、音容宛在 笑貌永存、超限的最大受益者",
-    "稀有度": "S",
     "属性": "生物",
     "特色": "爆发型物理伤害角色",
+    "rarity": "S",
     "recommend": [
       {
         "category": "新手",
@@ -59,5 +59,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=空之律者&oldid=6314"
   },
   "reference": "https://wiki.biligame.com/bh3/空之律者",
-  "mtime": 1709033823913
+  "mtime": 1709037645210
 }

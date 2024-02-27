@@ -4,9 +4,9 @@
     "装甲名": "融核装·深红",
     "角色名": "无量塔姬子",
     "简称": "深红",
-    "稀有度": "A",
     "属性": "",
     "特色": "",
+    "rarity": "A",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=融核装·深红&oldid=6057"
   },
   "reference": "https://wiki.biligame.com/bh3/融核装·深红",
-  "mtime": 1709033824561
+  "mtime": 1709037646256
 }

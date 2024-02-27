@@ -4,9 +4,9 @@
     "装甲名": "战场疾风",
     "角色名": "无量塔姬子",
     "简称": "矿场疾风",
-    "稀有度": "B",
     "属性": "",
     "特色": "",
+    "rarity": "B",
     "recommend": [
       {
         "category": "新手",
@@ -41,5 +41,5 @@
     "version": "https://wiki.biligame.com/bh3/index.php?title=战场疾风&oldid=5895"
   },
   "reference": "https://wiki.biligame.com/bh3/战场疾风",
-  "mtime": 1709033824617
+  "mtime": 1709037646311
 }

@@ -31,14 +31,8 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
   return {
     meta: {
       name: $("#firstHeading").text(),
-      ...getTableProperties($, [
-        "装甲名",
-        "角色名",
-        "简称",
-        "稀有度",
-        "属性",
-        "特色",
-      ]),
+      ...getTableProperties($, ["装甲名", "角色名", "简称", "属性", "特色"]),
+      rarity: getTableData($, "稀有度"),
       recommend: getRecommendItems($),
       lastmod: $(".pc-serve-msg > p:nth-child(2) > span").text().trim(),
       visited: $("#footer-info-0").text().trim(),
