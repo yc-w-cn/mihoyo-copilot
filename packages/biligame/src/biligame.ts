@@ -29,7 +29,7 @@ export async function biligame(options: BiligameOptions) {
       handleYsCommand(options);
       break;
     case "bh3":
-      handleBh3Command(target, outputDir, cache);
+      handleBh3Command(options);
       break;
   }
 }

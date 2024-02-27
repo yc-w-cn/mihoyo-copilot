@@ -24,6 +24,7 @@
     "sr:characters": "ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --outputDir ./output",
     "sr:character-detail": "ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --target character-detail --name 黑天鹅 --outputDir ./output",
     "bh3:characters": "ts-node -r tsconfig-paths/register ./src/cli.ts --game bh3 --outputDir ./output",
+    "bh3:character-detail": "ts-node -r tsconfig-paths/register ./src/cli.ts --game bh3 --target character-detail --name 终焉之律者 --outputDir ./output",
     "clean": "rimraf ./dist/ ./exec/",
     "build": "pnpm run clean && tsc",
     "test": "pnpm run build && ava --verbose"
