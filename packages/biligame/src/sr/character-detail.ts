@@ -37,6 +37,7 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
     meta: {
       name: $("#firstHeading").text(),
       gender: $properties.find("tr:nth-child(1) > td").text().trim(),
+      avatar: $(".poke-bg img").attr("src").trim(),
       稀有度: $properties
         .find("tr:nth-child(3) > td > img")
         .attr("alt")
