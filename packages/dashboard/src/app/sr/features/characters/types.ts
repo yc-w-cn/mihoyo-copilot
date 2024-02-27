@@ -4,6 +4,7 @@ export type CharacterMeta = {
   rarity: string;
   element: string;
   type: string;
+  detail: any;
 };
 
 export const DEFAULT_CHARACTERS_STATE: CharactersState = {

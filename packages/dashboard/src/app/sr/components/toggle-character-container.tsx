@@ -62,7 +62,7 @@ export function ToggleCharacterContainer({
         <Image
           width={256}
           height={349}
-          src={character.image}
+          src={character.detail ? character.detail.avatar : character.image}
           alt={character.name}
           className="rounded-md object-cover w-[100px]"
           priority
