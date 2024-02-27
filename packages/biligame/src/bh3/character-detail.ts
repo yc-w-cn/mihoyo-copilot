@@ -39,7 +39,7 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
         "属性",
         "特色",
       ]),
-      毕业: getGraduateItems($),
+      recommend: getRecommendItems($),
       lastmod: $(".pc-serve-msg > p:nth-child(2) > span").text().trim(),
       visited: $("#footer-info-0").text().trim(),
       version: $(".printfooter > a").text().trim(),
@@ -49,14 +49,28 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
   };
 }
 
-export function getGraduateItems($: cheerio.CheerioAPI) {
-  return $(".wikitable")
-    .filter((_, element) => {
-      return $(element).find("th").text().trim() === "毕业";
-    })
-    .find("td > a.new")
-    .map((_, name) => $(name).text().trim())
-    .get();
+export function getRecommendItems($: cheerio.CheerioAPI) {
+  const tables = $("h2")
+    .filter(
+      (_, element) =>
+        $(element).find(".mw-headline").text().trim() === "推荐装备"
+    )
+    .nextAll(".wikitable");
+
+  const result = [];
+
+  tables.each((_, element) => {
+    const category = $(element).find("th").text().trim();
+    const items = $(element)
+      .find("td > a")
+      .map((_, link) => $(link).text().trim())
+      .get();
+    if (items.length > 0) {
+      result.push({ category, items });
+    }
+  });
+
+  return result;
 }
 
 export function getTableProperties($: cheerio.CheerioAPI, names: string[]) {
