@@ -151,7 +151,6 @@ export function getTeams($: cheerio.CheerioAPI): Record<string, any> {
         .find("tr td div.tubiaoda")
         .map((_, element) => $(element).find("a").attr("title"))
         .get();
-        console.log('characters', characters)
       members.push(zipArrays(labels, characters));
     })
     .get();

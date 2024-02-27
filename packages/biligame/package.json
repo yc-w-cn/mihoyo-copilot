@@ -19,12 +19,11 @@
     "!dist/**/*.test.js"
   ],
   "scripts": {
-    "dev": "ts-node ./src/cli.ts",
-    "ys:characters": "ts-node ./src/cli.ts --game ys",
+    "ys:characters": "ts-node -r tsconfig-paths/register ./src/cli.ts --game ys --outputDir ./output",
     "ys:character-detail": "ts-node -r tsconfig-paths/register ./src/cli.ts --game ys --target character-detail --name 闲云 --outputDir ./output",
-    "sr:characters": "ts-node ./src/cli.ts --game sr",
+    "sr:characters": "ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --outputDir ./output",
     "sr:character-detail": "ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --target character-detail --name 黑天鹅 --outputDir ./output",
-    "bh3:characters": "ts-node ./src/cli.ts --game bh3",
+    "bh3:characters": "ts-node -r tsconfig-paths/register ./src/cli.ts --game bh3 --outputDir ./output",
     "clean": "rimraf ./dist/ ./exec/",
     "build": "pnpm run clean && tsc",
     "test": "pnpm run build && ava --verbose"
