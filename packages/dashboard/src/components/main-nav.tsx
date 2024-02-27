@@ -1,16 +1,21 @@
-import * as React from "react"
-import Link from "next/link"
+"use client";
 
-import { NavItem } from "@/types/nav"
-import { siteConfig } from "@/config/site"
-import { cn } from "@/utils"
-import { Icons } from "@/components/icons"
+import * as React from "react";
+import Link from "next/link";
+
+import { NavItem } from "@/types/nav";
+import { siteConfig } from "@/config/site";
+import { cn } from "@/utils";
+import { Icons } from "@/components/icons";
+import { usePathname } from "next/navigation";
 
 interface MainNavProps {
-  items?: NavItem[]
+  items?: NavItem[];
 }
 
 export function MainNav({ items }: MainNavProps) {
+  const pathname = usePathname();
+
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
@@ -27,7 +32,8 @@ export function MainNav({ items }: MainNavProps) {
                   href={item.href}
                   className={cn(
                     "flex items-center text-sm font-medium text-muted-foreground hover:rounded hover:bg-gray-100 px-2",
-                    item.disabled && "cursor-not-allowed opacity-80"
+                    item.disabled && "cursor-not-allowed opacity-80",
+                    pathname === item.href ? "font-bold text-black" : null
                   )}
                 >
                   {item.title}
@@ -37,5 +43,5 @@ export function MainNav({ items }: MainNavProps) {
         </nav>
       ) : null}
     </div>
-  )
+  );
 }
