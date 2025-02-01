@@ -10,7 +10,7 @@ console.log('process.argv', process.argv)
 
 program
   .name("biligame")
-  .version("1.0.0", "-v, --vers", "output the current version")
+  .version("1.0.1", "-v, --version", "output the current version")
   .description("download meta data from biligame")
   .addOption(
     new Option("-g, --game <game>", "specify game name (sr, ys, bh3)")
@@ -27,7 +27,7 @@ program
       .default("characters")
   )
   .addOption(
-    new Option("-c, --cache <cache>", "whether to check cache file data").default(true)
+    new Option("-c, --cache", "whether to check cache file data, default is false, add this option to set it to true").default(false)
   )
   .parse(process.argv);
 
