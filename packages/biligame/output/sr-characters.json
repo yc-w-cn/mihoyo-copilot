@@ -2,11 +2,165 @@
   "meta": {
     "characters": [
       {
+        "name": "阿格莱雅",
+        "image": "https://patchwiki.biligame.com/images/sr/5/55/4w0sxm4jbg3m0lqt7kj928hopv5lvc8.png",
+        "element": "雷",
+        "type": "记忆",
+        "rarity": "5星"
+      },
+      {
+        "name": "大黑塔",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e0/44vucb9yhgtruvn5uxlmzv8lep9lrn5.png",
+        "element": "冰",
+        "type": "智识",
+        "rarity": "5星"
+      },
+      {
+        "name": "开拓者•记忆",
+        "image": "https://patchwiki.biligame.com/images/sr/0/03/5wrymiibhwaqmbwpd8l47dcej6zzpgh.png",
+        "element": "冰",
+        "type": "记忆",
+        "rarity": "5星"
+      },
+      {
+        "name": "星期日",
+        "image": "https://patchwiki.biligame.com/images/sr/c/cb/921xn1bwfnx2o48k3ai90fnrnnyk4if.png",
+        "element": "虚数",
+        "type": "同谐",
+        "rarity": "5星"
+      },
+      {
+        "name": "忘归人",
+        "image": "https://patchwiki.biligame.com/images/sr/7/7c/le3zfy8t6kkybrgyzngn2jiuh8hi6gc.png",
+        "element": "火",
+        "type": "虚无",
+        "rarity": "5星"
+      },
+      {
+        "name": "乱破",
+        "image": "https://patchwiki.biligame.com/images/sr/9/95/ddau1vqhmc66nw1z8z6zkmspla1fhl9.png",
+        "element": "虚数",
+        "type": "智识",
+        "rarity": "5星"
+      },
+      {
+        "name": "灵砂",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e9/8xut1ehdahe74l9sllyq5s0292kc8a3.png",
+        "element": "火",
+        "type": "丰饶",
+        "rarity": "5星"
+      },
+      {
+        "name": "飞霄",
+        "image": "https://patchwiki.biligame.com/images/sr/8/80/54c4yosiw6u24jokmbu9mcnqcj5ov6c.png",
+        "element": "风",
+        "type": "巡猎",
+        "rarity": "5星"
+      },
+      {
+        "name": "貊泽",
+        "image": "https://patchwiki.biligame.com/images/sr/3/36/l748srx42nwhw7dx1i7aql9skyrlr2p.png",
+        "element": "雷",
+        "type": "巡猎",
+        "rarity": "4星"
+      },
+      {
+        "name": "椒丘",
+        "image": "https://patchwiki.biligame.com/images/sr/3/31/st16pm1qib48yfc2s4l3jbnomy6mzuh.png",
+        "element": "火",
+        "type": "虚无",
+        "rarity": "5星"
+      },
+      {
+        "name": "云璃",
+        "image": "https://patchwiki.biligame.com/images/sr/5/57/cm3dcpfecx0c9irb6pvcra99aizcvoa.png",
+        "element": "物理",
+        "type": "毁灭",
+        "rarity": "5星"
+      },
+      {
+        "name": "三月七•巡猎",
+        "image": "https://patchwiki.biligame.com/images/sr/2/26/9j5tgkp8wju3sgc4mpzr4hzmrivtk3h.png",
+        "element": "虚数",
+        "type": "巡猎",
+        "rarity": "4星"
+      },
+      {
+        "name": "翡翠",
+        "image": "https://patchwiki.biligame.com/images/sr/3/33/0kw28u1a6w2rle66p7ktdqa16ha2g1b.png",
+        "element": "量子",
+        "type": "智识",
+        "rarity": "5星"
+      },
+      {
+        "name": "流萤",
+        "image": "https://patchwiki.biligame.com/images/sr/5/52/rpu07i97b95ppq9vzq819evnp5idtmk.png",
+        "element": "火",
+        "type": "毁灭",
+        "rarity": "5星"
+      },
+      {
+        "name": "波提欧",
+        "image": "https://patchwiki.biligame.com/images/sr/c/ca/ecxvzqh55v4grwcfuypmgpf2szxs3y1.png",
+        "element": "物理",
+        "type": "巡猎",
+        "rarity": "5星"
+      },
+      {
+        "name": "知更鸟",
+        "image": "https://patchwiki.biligame.com/images/sr/0/0e/t1qy59mq19mtcpa4bhq1t7ucezliuve.png",
+        "element": "物理",
+        "type": "同谐",
+        "rarity": "5星"
+      },
+      {
+        "name": "开拓者•同谐",
+        "image": "https://patchwiki.biligame.com/images/sr/2/25/ndji123dunba9f6bol398vgxiq9kmex.png",
+        "element": "虚数",
+        "type": "同谐",
+        "rarity": "5星"
+      },
+      {
+        "name": "砂金",
+        "image": "https://patchwiki.biligame.com/images/sr/1/10/nzd0t84uinengcf9gfyid23jj00seaf.png",
+        "element": "虚数",
+        "type": "存护",
+        "rarity": "5星"
+      },
+      {
+        "name": "黄泉",
+        "image": "https://patchwiki.biligame.com/images/sr/0/06/f3n8ijkczalcz23z2oghkzkvaver7jj.png",
+        "element": "雷",
+        "type": "虚无",
+        "rarity": "5星"
+      },
+      {
+        "name": "加拉赫",
+        "image": "https://patchwiki.biligame.com/images/sr/b/b7/k3a382d2ii1mtm7urge6fd95b7u6xm4.png",
+        "element": "火",
+        "type": "丰饶",
+        "rarity": "4星"
+      },
+      {
+        "name": "花火",
+        "image": "https://patchwiki.biligame.com/images/sr/4/43/nfjn7sbu3s0j7zaqwxiimp94f9q0eod.png",
+        "element": "量子",
+        "type": "同谐",
+        "rarity": "5星"
+      },
+      {
         "name": "黑天鹅",
         "image": "https://patchwiki.biligame.com/images/sr/a/a5/g41wngswn8eheold60bnw8wxud25rsd.png",
         "element": "风",
         "type": "虚无",
         "rarity": "5星"
+      },
+      {
+        "name": "米沙",
+        "image": "https://patchwiki.biligame.com/images/sr/d/d1/jx1xaxhczs2cjivx8vlfsjzyj0dmibt.png",
+        "element": "冰",
+        "type": "毁灭",
+        "rarity": "4星"
       },
       {
         "name": "真理医生",
@@ -23,11 +177,25 @@
         "rarity": "5星"
       },
       {
+        "name": "雪衣",
+        "image": "https://patchwiki.biligame.com/images/sr/a/a7/g7dfe1ek0lfkwth6icyb2821rk0gane.png",
+        "element": "量子",
+        "type": "毁灭",
+        "rarity": "4星"
+      },
+      {
         "name": "银枝",
         "image": "https://patchwiki.biligame.com/images/sr/9/94/4g1908cw3chsvwt1znyob8m03y8yecw.png",
         "element": "物理",
         "type": "智识",
         "rarity": "5星"
+      },
+      {
+        "name": "寒鸦",
+        "image": "https://patchwiki.biligame.com/images/sr/6/67/gwovhvorfswwr8uc16x2zovdxgz531j.png",
+        "element": "物理",
+        "type": "同谐",
+        "rarity": "4星"
       },
       {
         "name": "藿藿",
@@ -44,6 +212,13 @@
         "rarity": "5星"
       },
       {
+        "name": "桂乃芬",
+        "image": "https://patchwiki.biligame.com/images/sr/a/a2/msof31qixcvqal0meau64wn8i78pk6c.png",
+        "element": "火",
+        "type": "虚无",
+        "rarity": "4星"
+      },
+      {
         "name": "镜流",
         "image": "https://patchwiki.biligame.com/images/sr/b/b5/skmc2r78nn9wkbeyrgcbxuut4f0nz5z.png",
         "element": "冰",
@@ -56,6 +231,13 @@
         "element": "量子",
         "type": "存护",
         "rarity": "5星"
+      },
+      {
+        "name": "玲可",
+        "image": "https://patchwiki.biligame.com/images/sr/5/5f/rz1lnx09wc21fv5m8409f3xpvqbqx99.png",
+        "element": "量子",
+        "type": "丰饶",
+        "rarity": "4星"
       },
       {
         "name": "丹恒•饮月",
@@ -72,6 +254,13 @@
         "rarity": "5星"
       },
       {
+        "name": "卢卡",
+        "image": "https://patchwiki.biligame.com/images/sr/1/1f/qb9pytrok6o1ma7fpev9x4vpkafrnfr.png",
+        "element": "物理",
+        "type": "虚无",
+        "rarity": "4星"
+      },
+      {
         "name": "刃",
         "image": "https://patchwiki.biligame.com/images/sr/f/fe/0c2z4od0mox71ossv6hnwv7eqkni7md.png",
         "element": "风",
@@ -86,6 +275,13 @@
         "rarity": "5星"
       },
       {
+        "name": "驭空",
+        "image": "https://patchwiki.biligame.com/images/sr/5/5a/roqw9zwz3f5n0ok2o9w7t76o0has5h1.png",
+        "element": "虚数",
+        "type": "同谐",
+        "rarity": "4星"
+      },
+      {
         "name": "银狼",
         "image": "https://patchwiki.biligame.com/images/sr/b/b7/6s1r3m95wjsa6xmrckdwnofb9obmsi1.png",
         "element": "量子",
@@ -97,62 +293,6 @@
         "image": "https://patchwiki.biligame.com/images/sr/0/08/pveenzc88gdslg14opkac9o85qpkdz9.png",
         "element": "雷",
         "type": "智识",
-        "rarity": "5星"
-      },
-      {
-        "name": "开拓者•存护",
-        "image": "https://patchwiki.biligame.com/images/sr/a/ae/sy92hmpuyr8egyqgsjre9pfblidoky4.png",
-        "element": "火",
-        "type": "存护",
-        "rarity": "5星"
-      },
-      {
-        "name": "开拓者•毁灭",
-        "image": "https://patchwiki.biligame.com/images/sr/b/b8/qq2a8rl6a14zl2u2v7d9jll3hwjep13.png",
-        "element": "物理",
-        "type": "毁灭",
-        "rarity": "5星"
-      },
-      {
-        "name": "彦卿",
-        "image": "https://patchwiki.biligame.com/images/sr/5/5a/e8surf2k9jw23u61s0epnw4oquvj6ik.png",
-        "element": "冰",
-        "type": "巡猎",
-        "rarity": "5星"
-      },
-      {
-        "name": "白露",
-        "image": "https://patchwiki.biligame.com/images/sr/f/f8/5oknkpsrd4eehmrd77ohd14o08xpg0p.png",
-        "element": "雷",
-        "type": "丰饶",
-        "rarity": "5星"
-      },
-      {
-        "name": "姬子",
-        "image": "https://patchwiki.biligame.com/images/sr/0/08/3gv4qax2cdksleouchs6vr0y8jgdg6g.png",
-        "element": "火",
-        "type": "智识",
-        "rarity": "5星"
-      },
-      {
-        "name": "杰帕德",
-        "image": "https://patchwiki.biligame.com/images/sr/8/88/3agvv2qxkyet71zgm3ba66cy1zk8cba.png",
-        "element": "冰",
-        "type": "存护",
-        "rarity": "5星"
-      },
-      {
-        "name": "克拉拉",
-        "image": "https://patchwiki.biligame.com/images/sr/1/12/6m5mom0ft5sqm5m7imc74l9a2tb2epm.png",
-        "element": "物理",
-        "type": "毁灭",
-        "rarity": "5星"
-      },
-      {
-        "name": "瓦尔特",
-        "image": "https://patchwiki.biligame.com/images/sr/f/fd/pdixxirg30wm7y2ladhf7q59qv9qptp.png",
-        "element": "虚数",
-        "type": "虚无",
         "rarity": "5星"
       },
       {
@@ -170,129 +310,66 @@
         "rarity": "5星"
       },
       {
-        "name": "米沙",
-        "image": "https://patchwiki.biligame.com/images/sr/d/d1/jx1xaxhczs2cjivx8vlfsjzyj0dmibt.png",
-        "element": "冰",
-        "type": "毁灭",
-        "rarity": "4星"
-      },
-      {
-        "name": "雪衣",
-        "image": "https://patchwiki.biligame.com/images/sr/a/a7/g7dfe1ek0lfkwth6icyb2821rk0gane.png",
-        "element": "量子",
-        "type": "毁灭",
-        "rarity": "4星"
-      },
-      {
-        "name": "寒鸦",
-        "image": "https://patchwiki.biligame.com/images/sr/6/67/gwovhvorfswwr8uc16x2zovdxgz531j.png",
-        "element": "物理",
-        "type": "同谐",
-        "rarity": "4星"
-      },
-      {
-        "name": "桂乃芬",
-        "image": "https://patchwiki.biligame.com/images/sr/a/a2/msof31qixcvqal0meau64wn8i78pk6c.png",
-        "element": "火",
-        "type": "虚无",
-        "rarity": "4星"
-      },
-      {
-        "name": "玲可",
-        "image": "https://patchwiki.biligame.com/images/sr/5/5f/rz1lnx09wc21fv5m8409f3xpvqbqx99.png",
-        "element": "量子",
-        "type": "丰饶",
-        "rarity": "4星"
-      },
-      {
-        "name": "卢卡",
-        "image": "https://patchwiki.biligame.com/images/sr/1/1f/qb9pytrok6o1ma7fpev9x4vpkafrnfr.png",
-        "element": "物理",
-        "type": "虚无",
-        "rarity": "4星"
-      },
-      {
-        "name": "驭空",
-        "image": "https://patchwiki.biligame.com/images/sr/5/5a/roqw9zwz3f5n0ok2o9w7t76o0has5h1.png",
+        "name": "瓦尔特",
+        "image": "https://patchwiki.biligame.com/images/sr/f/fd/pdixxirg30wm7y2ladhf7q59qv9qptp.png",
         "element": "虚数",
-        "type": "同谐",
-        "rarity": "4星"
-      },
-      {
-        "name": "停云",
-        "image": "https://patchwiki.biligame.com/images/sr/e/e5/ftauo8qb1vvrs1pl15764kz1rs3q5bf.png",
-        "element": "雷",
-        "type": "同谐",
-        "rarity": "4星"
-      },
-      {
-        "name": "青雀",
-        "image": "https://patchwiki.biligame.com/images/sr/0/0f/pvswlbd6mf5vv3hrm1844bgn2n42opl.png",
-        "element": "量子",
-        "type": "智识",
-        "rarity": "4星"
-      },
-      {
-        "name": "黑塔",
-        "image": "https://patchwiki.biligame.com/images/sr/7/71/8cenilo4k3qipbg51cbxhk4lqplig7v.png",
-        "element": "冰",
-        "type": "智识",
-        "rarity": "4星"
-      },
-      {
-        "name": "阿兰",
-        "image": "https://patchwiki.biligame.com/images/sr/1/11/1a47vur36821gyod0yk9mfjoy30f17t.png",
-        "element": "雷",
-        "type": "毁灭",
-        "rarity": "4星"
-      },
-      {
-        "name": "素裳",
-        "image": "https://patchwiki.biligame.com/images/sr/8/8e/tpyxwpq83si1nhhu1bhrsd42k6si5ae.png",
-        "element": "物理",
-        "type": "巡猎",
-        "rarity": "4星"
-      },
-      {
-        "name": "娜塔莎",
-        "image": "https://patchwiki.biligame.com/images/sr/2/23/b5ljww54yzx6vtb804y87kkhyl7g4sl.png",
-        "element": "物理",
-        "type": "丰饶",
-        "rarity": "4星"
-      },
-      {
-        "name": "希露瓦",
-        "image": "https://patchwiki.biligame.com/images/sr/e/e5/gs65n8u6m09i8careulnhk7on212otw.png",
-        "element": "雷",
-        "type": "智识",
-        "rarity": "4星"
-      },
-      {
-        "name": "桑博",
-        "image": "https://patchwiki.biligame.com/images/sr/e/e4/ie116u3a9vdgb7ddnshpyae972olcpn.png",
-        "element": "风",
         "type": "虚无",
-        "rarity": "4星"
+        "rarity": "5星"
       },
       {
-        "name": "佩拉",
-        "image": "https://patchwiki.biligame.com/images/sr/7/77/of8ucqcial28pzon8en6bu52kqv1mya.png",
-        "element": "冰",
-        "type": "虚无",
-        "rarity": "4星"
-      },
-      {
-        "name": "虎克",
-        "image": "https://patchwiki.biligame.com/images/sr/1/1f/hhpdhxl7l9axo7bx9a7q7r9nvf36s6m.png",
-        "element": "火",
+        "name": "克拉拉",
+        "image": "https://patchwiki.biligame.com/images/sr/1/12/6m5mom0ft5sqm5m7imc74l9a2tb2epm.png",
+        "element": "物理",
         "type": "毁灭",
-        "rarity": "4星"
+        "rarity": "5星"
       },
       {
-        "name": "三月七",
-        "image": "https://patchwiki.biligame.com/images/sr/5/52/m23phhx1o8xgdvflhfhcp6debtlsial.png",
+        "name": "杰帕德",
+        "image": "https://patchwiki.biligame.com/images/sr/8/88/3agvv2qxkyet71zgm3ba66cy1zk8cba.png",
         "element": "冰",
         "type": "存护",
+        "rarity": "5星"
+      },
+      {
+        "name": "姬子",
+        "image": "https://patchwiki.biligame.com/images/sr/0/08/3gv4qax2cdksleouchs6vr0y8jgdg6g.png",
+        "element": "火",
+        "type": "智识",
+        "rarity": "5星"
+      },
+      {
+        "name": "白露",
+        "image": "https://patchwiki.biligame.com/images/sr/f/f8/5oknkpsrd4eehmrd77ohd14o08xpg0p.png",
+        "element": "雷",
+        "type": "丰饶",
+        "rarity": "5星"
+      },
+      {
+        "name": "彦卿",
+        "image": "https://patchwiki.biligame.com/images/sr/5/5a/e8surf2k9jw23u61s0epnw4oquvj6ik.png",
+        "element": "冰",
+        "type": "巡猎",
+        "rarity": "5星"
+      },
+      {
+        "name": "开拓者•毁灭",
+        "image": "https://patchwiki.biligame.com/images/sr/b/b8/qq2a8rl6a14zl2u2v7d9jll3hwjep13.png",
+        "element": "物理",
+        "type": "毁灭",
+        "rarity": "5星"
+      },
+      {
+        "name": "开拓者•存护",
+        "image": "https://patchwiki.biligame.com/images/sr/a/ae/sy92hmpuyr8egyqgsjre9pfblidoky4.png",
+        "element": "火",
+        "type": "存护",
+        "rarity": "5星"
+      },
+      {
+        "name": "丹恒",
+        "image": "https://patchwiki.biligame.com/images/sr/7/7e/nyx2cc7w3yv8lytrhi0jn75dylar500.png",
+        "element": "风",
+        "type": "巡猎",
         "rarity": "4星"
       },
       {
@@ -303,15 +380,85 @@
         "rarity": "4星"
       },
       {
-        "name": "丹恒",
-        "image": "https://patchwiki.biligame.com/images/sr/7/7e/nyx2cc7w3yv8lytrhi0jn75dylar500.png",
+        "name": "三月七",
+        "image": "https://patchwiki.biligame.com/images/sr/5/52/m23phhx1o8xgdvflhfhcp6debtlsial.png",
+        "element": "冰",
+        "type": "存护",
+        "rarity": "4星"
+      },
+      {
+        "name": "虎克",
+        "image": "https://patchwiki.biligame.com/images/sr/1/1f/hhpdhxl7l9axo7bx9a7q7r9nvf36s6m.png",
+        "element": "火",
+        "type": "毁灭",
+        "rarity": "4星"
+      },
+      {
+        "name": "佩拉",
+        "image": "https://patchwiki.biligame.com/images/sr/7/77/of8ucqcial28pzon8en6bu52kqv1mya.png",
+        "element": "冰",
+        "type": "虚无",
+        "rarity": "4星"
+      },
+      {
+        "name": "桑博",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e4/ie116u3a9vdgb7ddnshpyae972olcpn.png",
         "element": "风",
+        "type": "虚无",
+        "rarity": "4星"
+      },
+      {
+        "name": "希露瓦",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e5/gs65n8u6m09i8careulnhk7on212otw.png",
+        "element": "雷",
+        "type": "智识",
+        "rarity": "4星"
+      },
+      {
+        "name": "娜塔莎",
+        "image": "https://patchwiki.biligame.com/images/sr/2/23/b5ljww54yzx6vtb804y87kkhyl7g4sl.png",
+        "element": "物理",
+        "type": "丰饶",
+        "rarity": "4星"
+      },
+      {
+        "name": "素裳",
+        "image": "https://patchwiki.biligame.com/images/sr/8/8e/tpyxwpq83si1nhhu1bhrsd42k6si5ae.png",
+        "element": "物理",
         "type": "巡猎",
+        "rarity": "4星"
+      },
+      {
+        "name": "阿兰",
+        "image": "https://patchwiki.biligame.com/images/sr/1/11/1a47vur36821gyod0yk9mfjoy30f17t.png",
+        "element": "雷",
+        "type": "毁灭",
+        "rarity": "4星"
+      },
+      {
+        "name": "黑塔",
+        "image": "https://patchwiki.biligame.com/images/sr/7/71/8cenilo4k3qipbg51cbxhk4lqplig7v.png",
+        "element": "冰",
+        "type": "智识",
+        "rarity": "4星"
+      },
+      {
+        "name": "青雀",
+        "image": "https://patchwiki.biligame.com/images/sr/0/0f/pvswlbd6mf5vv3hrm1844bgn2n42opl.png",
+        "element": "量子",
+        "type": "智识",
+        "rarity": "4星"
+      },
+      {
+        "name": "停云",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e5/ftauo8qb1vvrs1pl15764kz1rs3q5bf.png",
+        "element": "雷",
+        "type": "同谐",
         "rarity": "4星"
       }
     ],
-    "lastmod": "此页面最后编辑于2024年2月5日 (星期一) 17:36。",
-    "visited": "此页面已被访问过219,101次。"
+    "lastmod": "此页面最后编辑于2025年1月13日 (星期一) 23:48。",
+    "visited": "此页面已被访问过479,573次。"
   },
-  "mtime": 1709034464614
+  "mtime": 1738489909672
 }
