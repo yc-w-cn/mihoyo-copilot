@@ -1,49 +1,32 @@
-# typescript-cli-starter
+# biligame
 
-A simple and zero-opinion typescript starter template for building cross-platform command line applications.
+## Game YS
 
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/yc-w-cn/typescript-cli-starter.svg?style=flat-square)
+### download ys characters
 
-![GitHub](https://img.shields.io/github/license/yc-w-cn/typescript-cli-starter.svg?style=flat-square)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/yc-w-cn/typescript-cli-starter.svg?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/yc-w-cn/typescript-cli-starter.svg?style=flat-square)
+```bash
+ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --outputDir ./output
+```
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yc-w-cn/typescript-cli-starter.svg?style=flat-square)
+### download ys characters with cache
 
-Includes:
+use html cache from output folder.
 
-- [TypeScript](https://www.typescriptlang.org/), for writing good code
-- [Ava](https://www.npmjs.com/package/ava), for writing good tests
-- [Commander](https://www.npmjs.com/package/commander), for building CLI applications
+```bash
+pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game ys --outputDir ./output --cache
+```
 
-Your application will be installable from `npm`.
+### download ys character detail
 
-## Usage
+```bash
+pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game ys --target character-detail --name 夏沃蕾 --outputDir ./output
+```
 
-### **dev**
+### download ys character detail with cache
 
-`pnpm run dev`
+use html cache from output folder.
 
-Runs the CLI application.
+```bash
+pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game ys --target character-detail --name 闲云 --outputDir ./output --cache
+```
 
-You can pass arguments to your application by running `pnpm run dev -- --your-argument`. The extra `--` is so that your arguments are passed to your CLI application, and not `pnpm`.
-
-### **clean**
-
-`pnpm run clean`
-
-Removes any built code and any built executables.
-
-### **build**
-
-`pnpm run build`
-
-Cleans, then builds the TypeScript code.
-
-Your built code will be in the `./dist/` directory.
-
-### **test**
-
-`pnpm run test`
-
-Cleans, then builds, and tests the built code.
