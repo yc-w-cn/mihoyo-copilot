@@ -52,7 +52,7 @@
         ],
         "脚部": [
           "速度",
-          "攻击力百分比（2魂及以上）"
+          "攻击力百分比"
         ],
         "位面球": [
           "冰属性伤害加成"
@@ -74,5 +74,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=大黑塔&oldid=52959"
   },
   "reference": "https://wiki.biligame.com/sr/大黑塔",
-  "mtime": 1738502814497
+  "mtime": 1738511193247
 }

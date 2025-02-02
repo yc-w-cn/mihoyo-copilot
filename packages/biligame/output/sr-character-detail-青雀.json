@@ -52,7 +52,7 @@
         ],
         "脚部": [
           "攻击力百分比",
-          "速度（4魂后）"
+          "速度"
         ],
         "位面球": [
           "量子属性伤害提高"
@@ -74,5 +74,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=青雀&oldid=32238"
   },
   "reference": "https://wiki.biligame.com/sr/青雀",
-  "mtime": 1738502817045
+  "mtime": 1738511195927
 }

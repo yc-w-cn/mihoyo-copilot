@@ -47,7 +47,7 @@
         ],
         "位面球": [
           "攻击力百分比",
-          "物理属性伤害提高（高频追击队）"
+          "物理属性伤害提高"
         ],
         "连结绳": [
           "能量恢复效率"
@@ -66,5 +66,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=知更鸟&oldid=50109"
   },
   "reference": "https://wiki.biligame.com/sr/知更鸟",
-  "mtime": 1738502814990
+  "mtime": 1738511193771
 }
