@@ -53,7 +53,7 @@ const parseMainEntryRecommendations = ($: cheerio.CheerioAPI, html: string) => {
         .trim()                                   // 去除首尾空格
         .split(/、|，/)                           // 支持中文顿号、逗号分割
         .map(item => item.trim())                // 每个项目去空格
-        .map(item => item.replace(/\([^)]*\)/g, '').trim()) // 去除括号及其内容
+        .map(item => item.replace(/[（(][^)）]*[)）]/g, '').trim()) // 去除括号及其内容
         .filter(item => item.length > 0)         // 过滤空字符串
         .forEach(item => recommendations[part].push(item));
     }
