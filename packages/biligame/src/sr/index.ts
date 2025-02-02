@@ -2,6 +2,7 @@ import axios from "axios";
 import { BiligameOptions } from "@/biligame";
 import { handleCharacters } from "./characters";
 import { handleCharacterDetail } from "./character-detail";
+import { handleRelicsets } from "./relicsets";
 
 export const BASE_URL = "https://wiki.biligame.com/sr/";
 
@@ -17,6 +18,9 @@ export async function handleSrCommand(options: BiligameOptions) {
       break;
     case "character-detail":
       await handleCharacterDetail(options);
+      break;
+    case "relicsets":
+      await handleRelicsets(options);
       break;
   }
 }
