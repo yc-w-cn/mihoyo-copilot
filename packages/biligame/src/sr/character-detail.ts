@@ -51,7 +51,7 @@ const parseMainEntryRecommendations = ($: cheerio.CheerioAPI, html: string) => {
       // 分割处理逻辑
       match[1]
         .trim()                                   // 去除首尾空格
-        .split(/、|，/)                           // 支持中文顿号、逗号分割
+        .split(/、|，|&gt;/)                           // 支持中文顿号、逗号分割
         .map(item => item.trim())                // 每个项目去空格
         .map(item => item.replace(/[（(][^)）]*[)）]/g, '').trim()) // 去除括号及其内容
         .filter(item => item.length > 0)         // 过滤空字符串
@@ -147,7 +147,11 @@ export async function parseFn(html: string | null, options: ExecuteOptions) {
           .find("td")
           .eq(1)  // 获取第二个 <td> 中的内容
           .text()
-          .split(/[>、]/)  // 分割多个推荐项
+          .trim()
+          .split(/、|，|>|&gt;/)                           // 支持中文顿号、逗号分割
+          .map(item => item.trim())                // 每个项目去空格
+          .map(item => item.replace(/[（(][^)）]*[)）]/g, '').trim()) // 去除括号及其内容
+          .filter(item => item.length > 0)         // 过滤空字符串
           .map(item => item.trim()),
         词条推荐理由: $("tr")
           .filter((_, element) => {
