@@ -64,9 +64,9 @@
       },
       "副词条推荐": [
         "速度",
-        "暴击伤害（高速星期日+低速C）或速度（低于主C速度时）",
+        "暴击伤害或速度",
         "暴击伤害",
-        "速度（接近主C速度时）（C→星期日→C）",
+        "速度",
         "效果抵抗",
         "生命值 = 防御力"
       ],
@@ -77,5 +77,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=星期日&oldid=50107"
   },
   "reference": "https://wiki.biligame.com/sr/星期日",
-  "mtime": 1738511193322
+  "mtime": 1738513134829
 }

@@ -45,7 +45,8 @@
       "阵容搭配": {},
       "主词条推荐": {
         "躯干": [
-          "暴击率 &gt; 暴击伤害"
+          "暴击率",
+          "暴击伤害"
         ],
         "脚部": [
           "攻击力百分比"
@@ -70,5 +71,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=云璃&oldid=49662"
   },
   "reference": "https://wiki.biligame.com/sr/云璃",
-  "mtime": 1738511193588
+  "mtime": 1738513135080
 }

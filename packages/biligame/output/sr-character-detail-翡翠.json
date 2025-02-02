@@ -51,7 +51,8 @@
       },
       "主词条推荐": {
         "躯干": [
-          "暴击率 &gt; 暴击伤害"
+          "暴击率",
+          "暴击伤害"
         ],
         "脚部": [
           "攻击力百分比"
@@ -76,5 +77,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=翡翠&oldid=52752"
   },
   "reference": "https://wiki.biligame.com/sr/翡翠",
-  "mtime": 1738511193657
+  "mtime": 1738513135157
 }

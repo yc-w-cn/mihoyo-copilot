@@ -53,7 +53,8 @@
           "防御力百分比"
         ],
         "连结绳": [
-          "击破特攻 &gt; 能量恢复效率"
+          "击破特攻",
+          "能量恢复效率"
         ]
       },
       "副词条推荐": [
@@ -69,5 +70,5 @@
     "version": "https://wiki.biligame.com/sr/index.php?title=开拓者•同谐&oldid=50108"
   },
   "reference": "https://wiki.biligame.com/sr/开拓者•同谐",
-  "mtime": 1738511193803
+  "mtime": 1738513135317
 }
