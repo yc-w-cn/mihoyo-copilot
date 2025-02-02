@@ -2,11 +2,8 @@
 import { Command, Option } from "commander";
 
 import { biligame } from "./biligame";
-import { exit } from "process";
 
 const program = new Command();
-
-console.log('process.argv', process.argv)
 
 program
   .name("biligame")
