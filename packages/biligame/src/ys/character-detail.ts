@@ -19,7 +19,10 @@ export async function fetchFn(options: ExecuteOptions) {
   const { biligameOptions } = options;
   if (biligameOptions.name) {
     let name = biligameOptions.name;
-    if (name.includes("旅行者")) {
+    if (name.includes("旅行者(无)")) {
+      name = "旅行者"
+    }
+    else if (name.includes("旅行者")) {
       name = "旅行者/" + name.replace("旅行者(", "").replace(")", "");
     }
     const response = await axiosInstance.get<string>("/" + name);
