@@ -7,7 +7,7 @@ import { ExecuteOptions, execute } from "@/execute";
 export async function handleCharacters(biligameOptions: BiligameOptions) {
   const { name, game } = biligameOptions;
   return execute({
-    name: `execute-sr-character-detail-${name}`,
+    name: `execute-${game}-characters-${name}`,
     biligameOptions,
     fetchFn,
     parseFn,

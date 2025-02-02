@@ -4,9 +4,9 @@ import { ExecuteOptions, execute } from "@/execute";
 import { BiligameOptions } from "@/biligame";
 
 export async function handleCharacterDetail(biligameOptions: BiligameOptions) {
-  const { name } = biligameOptions;
+  const { name, game } = biligameOptions;
   return execute({
-    name: `execute-sr-character-detail-${name}`,
+    name: `execute-${game}-character-detail-${name}`,
     biligameOptions,
     fetchFn,
     parseFn,
