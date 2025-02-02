@@ -61,8 +61,16 @@ use html cache from output folder.
 pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --target character-detail --name 大黑塔 --outputDir ./output --cache
 ```
 
-## download sr relicsets
+### download sr relicsets
 
 ```bash
 pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game sr --target relicsets --outputDir ./output
+```
+
+## Game BH3
+
+### download bh3 characters
+
+```bash
+pnpx ts-node -r tsconfig-paths/register ./src/cli.ts --game bh3 --outputDir ./output
 ```
