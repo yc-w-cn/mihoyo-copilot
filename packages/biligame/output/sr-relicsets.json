@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "relicsets": [
+      {
+        "name": "凯歌祝捷的英豪",
+        "image": "https://patchwiki.biligame.com/images/sr/0/0b/asqa9dmtaysrewg74l023nciwrxjl3t.png",
+        "rarity": "5"
+      },
+      {
+        "name": "哀歌覆国的诗人",
+        "image": "https://patchwiki.biligame.com/images/sr/d/d0/r1tpj3uwu21463qqvhbp8fqoqfuastz.png",
+        "rarity": "5"
+      },
+      {
+        "name": "识海迷坠的学者",
+        "image": "https://patchwiki.biligame.com/images/sr/1/12/f2wwq40irhtjmookx12ww0ex5ry2e0x.png",
+        "rarity": "5"
+      },
+      {
+        "name": "重循苦旅的司铎",
+        "image": "https://patchwiki.biligame.com/images/sr/9/9d/jfylfy01qfgk84tyh4mqptqvo326mfz.png",
+        "rarity": "5"
+      },
+      {
+        "name": "奇想蕉乐园",
+        "image": "https://patchwiki.biligame.com/images/sr/d/d2/5ad2lwfqhhf65qu4kjmmkcygdxsyomw.png",
+        "rarity": "5"
+      },
+      {
+        "name": "沉陆海域露莎卡",
+        "image": "https://patchwiki.biligame.com/images/sr/4/4e/a5ziwteynqq4km0e9obbdkbbel3umyh.png",
+        "rarity": "5"
+      },
+      {
+        "name": "荡除蠹灾的铁骑",
+        "image": "https://patchwiki.biligame.com/images/sr/0/0f/eojt1jvw1jwe8qyzcy7d1rggluacqcs.png",
+        "rarity": "5"
+      },
+      {
+        "name": "风举云飞的勇烈",
+        "image": "https://patchwiki.biligame.com/images/sr/1/10/k5v5nutp0c71o9jjg2giu4i6q0dh021.png",
+        "rarity": "5"
+      },
+      {
+        "name": "劫火莲灯铸炼宫",
+        "image": "https://patchwiki.biligame.com/images/sr/7/7d/bj6cqx7oyq2ceyelhag9aq1joiymo96.png",
+        "rarity": "5"
+      },
+      {
+        "name": "奔狼的都蓝王朝",
+        "image": "https://patchwiki.biligame.com/images/sr/c/cd/3yacsqlhk4ria2axj9aqev6xw3neu4a.png",
+        "rarity": "5"
+      },
+      {
+        "name": "出云显世与高天神国",
+        "image": "https://patchwiki.biligame.com/images/sr/7/7c/887j032m6al0m79wxhjufjlulezqqdw.png",
+        "rarity": "5"
+      },
+      {
+        "name": "无主荒星茨冈尼亚",
+        "image": "https://patchwiki.biligame.com/images/sr/1/16/j09re3b47migqwt7erbotzr6gcpo2tr.png",
+        "rarity": "5"
+      },
+      {
+        "name": "机心戏梦的钟表匠",
+        "image": "https://patchwiki.biligame.com/images/sr/4/49/n0lin0i5ooj0y2of29fksu8lpps8sqi.png",
+        "rarity": "5"
+      },
+      {
+        "name": "死水深潜的先驱",
+        "image": "https://patchwiki.biligame.com/images/sr/1/18/i5w94is5zn396j02ag1bmbn47hh0qwe.png",
+        "rarity": "5"
+      },
+      {
+        "name": "幽锁深牢的系囚",
+        "image": "https://patchwiki.biligame.com/images/sr/c/c9/5l21wz3bzh4bi8ylpua894g2o1yofxk.png",
+        "rarity": "5"
+      },
+      {
+        "name": "毁烬焚骨的大公",
+        "image": "https://patchwiki.biligame.com/images/sr/4/4c/f92jl5ulcz9rm7aen1l7slpj8lts7t4.png",
+        "rarity": "5"
+      },
+      {
+        "name": "梦想之地匹诺康尼",
+        "image": "https://patchwiki.biligame.com/images/sr/c/cd/1p946cknz3gk141d3ctz7rett3l2x1s.png",
+        "rarity": "5"
+      },
+      {
+        "name": "苍穹战线格拉默",
+        "image": "https://patchwiki.biligame.com/images/sr/0/0f/9x5i9hoivuyzer4eohmzqbw7a32ixda.png",
+        "rarity": "5"
+      },
+      {
+        "name": "宝命长存的莳者",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e5/hutwep2ofxtst2kkbuskerzxxiixa8m.png",
+        "rarity": "5"
+      },
+      {
+        "name": "骇域漫游的信使",
+        "image": "https://patchwiki.biligame.com/images/sr/9/97/t4tbjj06a02g3elm4urfdc93w5o6mub.png",
+        "rarity": "5"
+      },
+      {
+        "name": "折断的龙骨",
+        "image": "https://patchwiki.biligame.com/images/sr/5/55/6tmcnc2fevin3mv5r518c17ifkgyhp5.png",
+        "rarity": "5"
+      },
+      {
+        "name": "繁星竞技场",
+        "image": "https://patchwiki.biligame.com/images/sr/e/e4/til0p1q6j7oxm41xf4j9kn1otsr8kkc.png",
+        "rarity": "5"
+      },
+      {
+        "name": "云无留迹的过客",
+        "image": "https://patchwiki.biligame.com/images/sr/9/90/q2tfb3vp29ziqqmjn3mliw37ru900kh.png",
+        "rarity": "5"
+      },
+      {
+        "name": "净庭教宗的圣骑士",
+        "image": "https://patchwiki.biligame.com/images/sr/7/77/9dqg309volk3i2i5vwsu11tm5fq3q5h.png",
+        "rarity": "5"
+      },
+      {
+        "name": "密林卧雪的猎人",
+        "image": "https://patchwiki.biligame.com/images/sr/b/b2/aufhqkkh3dl1w9d2hvjfxq9q6t9zjob.png",
+        "rarity": "5"
+      },
+      {
+        "name": "戍卫风雪的铁卫",
+        "image": "https://patchwiki.biligame.com/images/sr/1/19/5kbx53ksnkspojcevsrqslllcebf7d6.png",
+        "rarity": "5"
+      },
+      {
+        "name": "晨昏交界的翔鹰",
+        "image": "https://patchwiki.biligame.com/images/sr/7/72/ptmo29s5kzbp7kyj4yp15iugafw340q.png",
+        "rarity": "5"
+      },
+      {
+        "name": "流星追迹的怪盗",
+        "image": "https://patchwiki.biligame.com/images/sr/a/af/8ybczles9a7py2nx2lhv5sznbrodrh3.png",
+        "rarity": "5"
+      },
+      {
+        "name": "激奏雷电的乐队",
+        "image": "https://patchwiki.biligame.com/images/sr/2/27/nucanfx3x6srk4y4ynvtbiymr0irnvh.png",
+        "rarity": "5"
+      },
+      {
+        "name": "盗匪荒漠的废土客",
+        "image": "https://patchwiki.biligame.com/images/sr/8/89/jyw7fbib89efya88cazy1phnlj1j6nu.png",
+        "rarity": "5"
+      },
+      {
+        "name": "繁星璀璨的天才",
+        "image": "https://patchwiki.biligame.com/images/sr/c/ce/euopduxhce0xhh3aosr2s8rc5nlwz8x.png",
+        "rarity": "5"
+      },
+      {
+        "name": "街头出身的拳王",
+        "image": "https://patchwiki.biligame.com/images/sr/7/72/b3s987ajw9yn97n6al25zsqaqrh51bm.png",
+        "rarity": "5"
+      },
+      {
+        "name": "野穗伴行的快枪手",
+        "image": "https://patchwiki.biligame.com/images/sr/7/78/s2ftx4haxm5s9317syi4ec409tgbck7.png",
+        "rarity": "5"
+      },
+      {
+        "name": "熔岩锻铸的火匠",
+        "image": "https://patchwiki.biligame.com/images/sr/9/90/7r3kvrciaf3o0vp2nur683khmppef4f.png",
+        "rarity": "5"
+      },
+      {
+        "name": "不老者的仙舟",
+        "image": "https://patchwiki.biligame.com/images/sr/7/7c/ec6cn1gxbx5dphfpg5y3g3ygf7p7qns.png",
+        "rarity": "5"
+      },
+      {
+        "name": "停转的萨尔索图",
+        "image": "https://patchwiki.biligame.com/images/sr/d/d8/7shhumvaua1c0r5j938t59mhbj5hvc8.png",
+        "rarity": "5"
+      },
+      {
+        "name": "太空封印站",
+        "image": "https://patchwiki.biligame.com/images/sr/9/95/dvnkbcvuwv4u5ywehg38ci7kk6gb6b8.png",
+        "rarity": "5"
+      },
+      {
+        "name": "星体差分机",
+        "image": "https://patchwiki.biligame.com/images/sr/a/aa/bd695pafsi7wyg8fbhdwvh9sw7g88fx.png",
+        "rarity": "5"
+      },
+      {
+        "name": "泛银河商业公司",
+        "image": "https://patchwiki.biligame.com/images/sr/d/d6/8ocbndzn24ryk02cy5tbg7plgo2kbup.png",
+        "rarity": "5"
+      },
+      {
+        "name": "生命的翁瓦克",
+        "image": "https://patchwiki.biligame.com/images/sr/4/4e/g4njgfinoq4t4ketuak5xvvjyxvlsx4.png",
+        "rarity": "5"
+      },
+      {
+        "name": "盗贼公国塔利亚",
+        "image": "https://patchwiki.biligame.com/images/sr/2/25/msaok5desl96c9fcp3gz3ai1m7lfcc1.png",
+        "rarity": "5"
+      },
+      {
+        "name": "筑城者的贝洛伯格",
+        "image": "https://patchwiki.biligame.com/images/sr/e/ef/maynx8964qjj7ck01x9ocdk30xiwl52.png",
+        "rarity": "5"
+      }
+    ],
+    "lastmod": "此页面最后编辑于2025年1月15日 (星期三) 02:12。",
+    "visited": "此页面已被访问过26,714次。"
+  },
+  "mtime": 1738494014516
+}

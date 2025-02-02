@@ -4,7 +4,7 @@ import { handleYsCommand } from "./ys";
 
 export type GameType = "sr" | "ys" | "bh3";
 
-export type TargetType = "characters" | "character-detail";
+export type TargetType = "characters" | "character-detail" | "relicsets";
 
 export type BiligameOptions = {
   game: GameType;

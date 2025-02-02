@@ -19,8 +19,8 @@ program
   )
   .option("-o, --outputDir <outputDir>", "specify output dir", process.cwd())
   .addOption(
-    new Option("-t, --target <target>", "specify output target (characters, character-detail)")
-      .choices(["characters", "character-detail"])
+    new Option("-t, --target <target>", "specify output target (characters, character-detail, relicsets)")
+      .choices(["characters", "character-detail", "relicsets"])
       .default("characters")
   )
   .addOption(
