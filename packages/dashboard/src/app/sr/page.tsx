@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { PageContent } from "./page-content";
 import { CharacterMeta } from "./features/characters";
+import { RelicsetMeta } from "./features/relicsets/types";
 
 export const metadata: Metadata = {
   title: "崩坏：星穹铁道",
@@ -13,6 +14,7 @@ const HomePage = async () => {
     path.join(process.cwd(), "../biligame/output/sr-characters.json"),
     "utf8"
   );
+
   const characters: CharacterMeta[] = file
     ? JSON.parse(file).meta.characters
     : [];
@@ -27,7 +29,14 @@ const HomePage = async () => {
     character.detail = detailFile ? JSON.parse(detailFile).meta : null;
   }
 
-  return <PageContent characters={characters} />;
+  const relicsetsFile = await fs.readFile(
+    path.join(process.cwd(), `../biligame/output/sr-relicsets.json`),
+    "utf8"
+  );
+
+  const relicsets: RelicsetMeta[] = relicsetsFile ? JSON.parse(relicsetsFile).meta.relicsets : []
+
+  return <PageContent characters={characters} relicsets={relicsets} />;
 };
 
 export default HomePage;
