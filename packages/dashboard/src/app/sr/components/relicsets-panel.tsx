@@ -35,10 +35,33 @@ export function RelicsetsPanel({ relicsets }: Props) {
         const availableCharacters = characters.filter(character => character.detail.recommend.隧洞遗器.includes(relicset.name)
           || character.detail.recommend.位面饰品.includes(relicset.name))
 
+        if (availableCharacters.length === 0) {
+          return (<tr className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
+            <td rowSpan={availableCharacters.length || undefined}
+              className="p-4">
+              <Image
+                width={256}
+                height={349}
+                src={relicset.image}
+                alt={relicset.name}
+                className="rounded-md object-cover w-[100px]"
+                priority
+              /><span className="font-bold text-center">{relicset.name}</span>
+            </td>
+            <td className="p-4">-</td>
+            <td className="p-4">-</td>
+            <td className="p-4">-</td>
+            <td className="p-4">-</td>
+            <td className="p-4">-</td>
+            <td className="p-4">-</td>
+          </tr>)
+        }
+
+
         return availableCharacters.map((character, index) => {
           return (
             <tr key={character.name} className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
-              {index === 0 && <td rowSpan={availableCharacters.length || undefined} 
+              {index === 0 && <td rowSpan={availableCharacters.length || undefined}
                 className="p-4">
                 <Image
                   width={256}
