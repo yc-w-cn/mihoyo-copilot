@@ -37,7 +37,8 @@ export function RelicsetsPanel({ relicsets }: Props) {
             || character.detail.recommend.位面饰品.includes(relicset.name))
 
         if (availableCharacters.length === 0) {
-          return (<tr className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
+          return (
+          <tr key={`reliceset-${relicsetIdx}`} className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
             <td rowSpan={availableCharacters.length || undefined}
               className="p-4 space-y-2 text-center">
               <Image
