@@ -39,15 +39,15 @@ export function RelicsetsPanel({ relicsets }: Props) {
         if (availableCharacters.length === 0) {
           return (<tr className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
             <td rowSpan={availableCharacters.length || undefined}
-              className="p-4">
+              className="p-4 space-y-2 text-center">
               <Image
                 width={256}
                 height={349}
                 src={relicset.image}
                 alt={relicset.name}
-                className="rounded-md object-cover w-[100px]"
+                className="rounded-md object-cover w-[100px] mx-auto"
                 priority
-              /><span className="font-bold text-center">{relicset.name}</span>
+              /><p className="font-bold">{relicset.name}</p>
             </td>
             <td className="p-4">-</td>
             <td className="p-4">-</td>
@@ -58,25 +58,25 @@ export function RelicsetsPanel({ relicsets }: Props) {
           </tr>)
         }
 
-
         return availableCharacters.map((character, index) => {
           const isPlanarOrnaments = character.detail.recommend.位面饰品.includes(relicset.name)
           return (
             <tr key={character.name} className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
               {index === 0 && <td rowSpan={availableCharacters.length || undefined}
-                className="p-4">
+                className="p-4 space-y-2 text-center">
                 <Image
                   width={256}
                   height={349}
                   src={relicset.image}
                   alt={relicset.name}
-                  className="rounded-md object-cover w-[100px]"
+                  className="rounded-md object-cover w-[100px] mx-auto"
                   priority
-                /><span className="font-bold text-center">{relicset.name}</span>
+                />
+                <p className="font-bold">{relicset.name}</p>
               </td>}
               <td className="p-4">{character.name}</td>
               <td className="p-4">{!isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.躯干) : "-"}</td>
-              <td className="p-4">{!isPlanarOrnaments ?renderTexts(character.detail.recommend.主词条推荐.脚部) : "-"}</td>
+              <td className="p-4">{!isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.脚部) : "-"}</td>
               <td className="p-4">{isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.位面球) : "-"}</td>
               <td className="p-4">{isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.连结绳) : "-"}</td>
               <td className="p-4">{renderTexts(character.detail.recommend.副词条推荐)}</td>
