@@ -1,6 +1,6 @@
 {
   "name": "@mihoyo-copilot/biligame",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Simple cli application to download meta info from biligame.",
   "keywords": [
