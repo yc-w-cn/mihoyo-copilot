@@ -32,8 +32,9 @@ export function RelicsetsPanel({ relicsets }: Props) {
     </thead>
     <tbody>
       {relicsets.map((relicset, relicsetIdx) => {
-        const availableCharacters = characters.filter(character => character.detail.recommend.隧洞遗器.includes(relicset.name)
-          || character.detail.recommend.位面饰品.includes(relicset.name))
+        const availableCharacters = characters.filter(
+          character => character.detail.recommend.隧洞遗器.includes(relicset.name)
+            || character.detail.recommend.位面饰品.includes(relicset.name))
 
         if (availableCharacters.length === 0) {
           return (<tr className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
@@ -59,6 +60,7 @@ export function RelicsetsPanel({ relicsets }: Props) {
 
 
         return availableCharacters.map((character, index) => {
+          const isPlanarOrnaments = character.detail.recommend.位面饰品.includes(relicset.name)
           return (
             <tr key={character.name} className={cn("text-xs", relicsetIdx % 2 === 0 && "bg-slate-100")}>
               {index === 0 && <td rowSpan={availableCharacters.length || undefined}
@@ -73,10 +75,10 @@ export function RelicsetsPanel({ relicsets }: Props) {
                 /><span className="font-bold text-center">{relicset.name}</span>
               </td>}
               <td className="p-4">{character.name}</td>
-              <td className="p-4">{renderTexts(character.detail.recommend.主词条推荐.躯干)}</td>
-              <td className="p-4">{renderTexts(character.detail.recommend.主词条推荐.脚部)}</td>
-              <td className="p-4">{renderTexts(character.detail.recommend.主词条推荐.位面球)}</td>
-              <td className="p-4">{renderTexts(character.detail.recommend.主词条推荐.连结绳)}</td>
+              <td className="p-4">{!isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.躯干) : "-"}</td>
+              <td className="p-4">{!isPlanarOrnaments ?renderTexts(character.detail.recommend.主词条推荐.脚部) : "-"}</td>
+              <td className="p-4">{isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.位面球) : "-"}</td>
+              <td className="p-4">{isPlanarOrnaments ? renderTexts(character.detail.recommend.主词条推荐.连结绳) : "-"}</td>
               <td className="p-4">{renderTexts(character.detail.recommend.副词条推荐)}</td>
             </tr>)
         })
